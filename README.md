@@ -2,49 +2,67 @@
 
 Independent AI Safety Researcher · Senior QA Engineer · FinTech reliability background
 
-I build deterministic evidence and accountability layers for high-risk AI-agent actions before execution.
+I build verifiable trust infrastructure for AI agents, fintech actions, memory systems, and public-good protocols.
 
 ```text
-AI-agent actions should be reviewable, replayable, and evidence-backed before execution.
+High-risk AI-agent actions should be reviewable, replayable, and evidence-backed before execution.
 ```
 
-My work focuses on the infrastructure layer between an AI-agent proposal and a real-world effect: tool calls, code changes, infrastructure actions, financial workflows, governance actions, and other high-impact operations.
+My work focuses on the infrastructure layer between an AI-agent proposal and a real-world effect: tool calls, code changes, infrastructure actions, financial workflows, governance actions, public-good protocols, and other high-impact operations.
 
-## Research focus
+## Core thesis
 
-I am exploring deterministic oversight for agentic AI systems.
+Modern AI systems do not only answer questions. They increasingly call tools, write code, modify infrastructure, move data, trigger workflows, and make decisions with real-world consequences.
 
-Core questions:
+My research and engineering work asks:
 
-- How can high-risk AI-agent actions be evaluated before execution?
-- What evidence should be required before an agent calls a tool, changes code, modifies infrastructure, or triggers a financial/governance workflow?
+- What evidence should exist before an AI agent performs a high-risk action?
 - How can action traces be made replayable, tamper-checkable, and useful for human reviewers?
 - How can deterministic control layers complement probabilistic model evaluations?
-- What should an infra-level accountability layer look like for multi-agent systems?
+- How can financial, governance, and infrastructure actions become more accountable before execution?
+- What should a practical trust layer look like for multi-agent and human-in-the-loop systems?
 
-## AI safety portfolio
+## Active projects
 
-### [PythiaLabs](https://github.com/safal207/pythiaLabs)
+### [Causal-Memory-Layer](https://github.com/safal207/Causal-Memory-Layer)
 
-Pre-execution evidence gates for high-risk AI-agent actions.
+Causal audit layer for AI-agent action traces.
 
 ```text
-AI agent proposes action -> evidence gate -> ALLOW / BLOCK / ESCALATE
+agent action -> parent cause -> audit rule -> finding -> reviewer evidence
 ```
 
-Best entry point for grant, fellowship, and AI safety reviewers:  
-[Reviewer Start Here](https://github.com/safal207/pythiaLabs/blob/main/REVIEWER_START_HERE.md)
+CML focuses on causal lineage: whether an agent action has a valid parent, approval path, and reviewable trace. It is designed as a lightweight accountability primitive for agent frameworks, memory systems, and high-risk tool-use workflows.
 
 ### [ProofPath](https://github.com/safal207/ProofPath)
 
-Verifiable intent and action-boundary audit for AI-agent/API workflows.
+Pre-execution gateway for high-risk AI-agent/API actions.
 
 ```text
 valid credential != valid action != valid scope != valid reversibility != valid approval
 ```
 
-Best entry point for action-boundary and security reviewers:  
+ProofPath protects the meaning of an action before execution: intent, scope, causal parent, reversibility, approval, and audit trail.
+
+Best entry point for reviewers:  
 [Reviewer First Screen](https://github.com/safal207/ProofPath/blob/main/docs/REVIEWER_FIRST_SCREEN.md)
+
+### [LiminalDB](https://github.com/safal207/LiminalDB)
+
+Local-first and federated event-memory database for inspectable, replayable systems.
+
+LiminalDB explores event envelopes, local replay, validation paths, and future federated replication for memory and protocol infrastructure.
+
+### [fediverse-portability-test-kit](https://github.com/safal207/fediverse-portability-test-kit)
+
+Public-good test kit for Fediverse portability, export/import checks, media integrity, visibility safety, and reviewer-friendly compatibility reports.
+
+### [pythiaLabs](https://github.com/safal207/pythiaLabs)
+
+Research and portfolio space for pre-execution evidence gates and AI-agent oversight prototypes.
+
+Best entry point for grant, fellowship, and AI safety reviewers:  
+[Reviewer Start Here](https://github.com/safal207/pythiaLabs/blob/main/REVIEWER_START_HERE.md)
 
 ### [LiminalQAengineer](https://github.com/safal207/LiminalQAengineer)
 
@@ -53,25 +71,67 @@ Causality-aware QA/CI reliability substrate for reproducible failure analysis an
 Best entry point for reliability and open-source infrastructure reviewers:  
 [Reviewer First Screen](https://github.com/safal207/LiminalQAengineer/blob/main/docs/REVIEWER_FIRST_SCREEN.md)
 
-## Portfolio map
+## Liminal Stack
 
-The current stack is intentionally layered:
-
-```text
-PythiaLabs -> evidence gate
-ProofPath -> intent and audit boundary
-CML -> causal accountability
-LTP -> trace and replay protocol
-LiminalQAengineer -> reliability substrate
-```
-
-Shared thesis:
+The broader project family is becoming a layered stack:
 
 ```text
-High-risk AI-agent actions should be inspectable before execution.
+CML                         -> causal accountability for agent traces
+ProofPath                   -> action authorization and payment/API guard
+LiminalDB                   -> replayable event-memory substrate
+L-THREAD / LTP              -> secure trace and replay protocol
+Liminal Presence Interface  -> presence, identity, and interaction layer
+L-EDGE                      -> edge/runtime direction
+Fediverse portability kit   -> public-good validation and portability testing
 ```
 
-Portfolio map: [AI_SAFETY_PORTFOLIO.md](https://github.com/safal207/pythiaLabs/blob/main/AI_SAFETY_PORTFOLIO.md)
+This is the long-term direction:
+
+```text
+verifiable trust infrastructure for AI agents, fintech actions, memory systems, and public-good protocols
+```
+
+## Project map
+
+### Active focus
+
+| Project | Role | Why it matters |
+|---|---|---|
+| [Causal-Memory-Layer](https://github.com/safal207/Causal-Memory-Layer) | AI-agent causal audit | strongest AI safety / agent observability artifact |
+| [ProofPath](https://github.com/safal207/ProofPath) | pre-execution action guard | strongest fintech / API / AI-agent authorization artifact |
+| [LiminalDB](https://github.com/safal207/LiminalDB) | replayable event-memory DB | grant/public-good infrastructure path |
+| [fediverse-portability-test-kit](https://github.com/safal207/fediverse-portability-test-kit) | portability validation kit | public-good / Fediverse grant path |
+| [LiminalQAengineer](https://github.com/safal207/LiminalQAengineer) | QA reliability substrate | bridge between QA experience and AI infrastructure |
+
+### Incubating
+
+These projects are related to the long-term platform direction, but should remain secondary until the active focus is clearer:
+
+- [L-THREAD-Liminal-Thread-Secure-Protocol-LTP-](https://github.com/safal207/L-THREAD-Liminal-Thread-Secure-Protocol-LTP-)
+- [Liminal-Presence-Interface-LPI](https://github.com/safal207/Liminal-Presence-Interface-LPI)
+- [L-EDGE-Liminal-Edge-OS](https://github.com/safal207/L-EDGE-Liminal-Edge-OS)
+- [DMP-decision-memory-protocol](https://github.com/safal207/DMP-decision-memory-protocol)
+- [Living-Relational-Identity-LRI](https://github.com/safal207/Living-Relational-Identity-LRI)
+- [LRE-Core](https://github.com/safal207/LRE-Core)
+- [Access-Orientation-Protocol](https://github.com/safal207/Access-Orientation-Protocol)
+- [Scale-Descent-Protocol-SDP](https://github.com/safal207/Scale-Descent-Protocol-SDP)
+
+### QA, career, and fintech bridge
+
+These projects connect my background in QA, fintech, reliability, and product systems:
+
+- [CareerOS](https://github.com/safal207/CareerOS)
+- [qa-fintech-api-python-course](https://github.com/safal207/qa-fintech-api-python-course)
+- [finanalytics-core](https://github.com/safal207/finanalytics-core)
+- [TachTachAI](https://github.com/safal207/TachTachAI)
+- [nexus-sales](https://github.com/safal207/nexus-sales)
+- [nexus-ecosystem](https://github.com/safal207/nexus-ecosystem)
+
+### Archive / idea bank
+
+Some repositories are intentionally kept as prototypes, sketches, or idea bank material. They may contain useful concepts, but they are not the current execution focus.
+
+Examples include older experiments around Liminal, Noosphere, education, Web3, DAO, voice, self-creation, and personal protocol ideas.
 
 ## Status and scope
 
@@ -82,7 +142,7 @@ They do not claim full AI alignment, complete agent safety, certified security, 
 The current contribution is narrower and more testable:
 
 ```text
-make high-risk AI-agent actions reviewable, replayable, and evidence-backed before execution.
+make high-risk AI-agent actions reviewable, replayable, and evidence-backed before execution
 ```
 
 ## Background
@@ -95,10 +155,13 @@ This background shapes my AI safety work: I treat agent oversight as an engineer
 
 For reviewers, grantmakers, and collaborators:
 
+- [Causal-Memory-Layer](https://github.com/safal207/Causal-Memory-Layer)
+- [ProofPath reviewer first screen](https://github.com/safal207/ProofPath/blob/main/docs/REVIEWER_FIRST_SCREEN.md)
 - [PythiaLabs reviewer start](https://github.com/safal207/pythiaLabs/blob/main/REVIEWER_START_HERE.md)
 - [PythiaLabs portfolio map](https://github.com/safal207/pythiaLabs/blob/main/AI_SAFETY_PORTFOLIO.md)
-- [ProofPath reviewer first screen](https://github.com/safal207/ProofPath/blob/main/docs/REVIEWER_FIRST_SCREEN.md)
 - [LiminalQAengineer reviewer first screen](https://github.com/safal207/LiminalQAengineer/blob/main/docs/REVIEWER_FIRST_SCREEN.md)
+- [LiminalDB](https://github.com/safal207/LiminalDB)
+- [Fediverse portability test kit](https://github.com/safal207/fediverse-portability-test-kit)
 
 ## Contact
 
