@@ -26,6 +26,26 @@ My work focuses on the infrastructure layer between an AI-agent proposal and a r
 >
 > **Personal archetype:** the Silver Surfer — great power restrained by principle, balance, and responsibility.
 
+## Bio / Agentic Biology
+
+> ### 🧬 [Kairos Gate for X-Cell](https://github.com/safal207/Kairos-Gate-for-X-Cell)
+>
+> **Evidence and governance infrastructure for agentic biology.**
+>
+> Kairos Gate checks experimental units, provenance, independent replication, temporal identity, competing causal explanations, model compatibility, and claim boundaries before a scientific conclusion is allowed to move forward.
+>
+> ```text
+> models may propose possibilities
+>                 ↓
+> evidence contracts determine what is supported
+>                 ↓
+> authorized humans determine what may proceed
+> ```
+>
+> The project is computational and documentary only. It does not authorize wet-lab work, treatment, or clinical decisions.
+>
+> **Open the bio direction → [Kairos Gate for X-Cell](https://github.com/safal207/Kairos-Gate-for-X-Cell)**
+
 ## Core thesis
 
 Modern AI systems do not only answer questions. They increasingly call tools, write code, modify infrastructure, move data, trigger workflows, and make decisions with real-world consequences.
@@ -39,6 +59,16 @@ My research and engineering work asks:
 - What should a practical trust layer look like for multi-agent and human-in-the-loop systems?
 
 ## Active projects
+
+### [Kairos Gate for X-Cell](https://github.com/safal207/Kairos-Gate-for-X-Cell)
+
+Evidence and governance layer for agentic biology.
+
+```text
+scientific proposal -> evidence audit -> bounded claim -> authorized human decision
+```
+
+Kairos Gate separates biological evidence, model output, and permission to act. It is the main bio-direction project for experimental-unit auditing, provenance, replication, temporal validity, causal-hypothesis ranking, and partner-laboratory evidence handoff.
 
 ### [Causal-Memory-Layer](https://github.com/safal207/Causal-Memory-Layer)
 
@@ -113,6 +143,7 @@ verifiable trust infrastructure for AI agents, fintech actions, memory systems, 
 
 | Project | Role | Why it matters |
 |---|---|---|
+| [Kairos Gate for X-Cell](https://github.com/safal207/Kairos-Gate-for-X-Cell) | agentic-biology evidence and governance layer | main bio direction; separates scientific support from permission to act |
 | [Causal-Memory-Layer](https://github.com/safal207/Causal-Memory-Layer) | AI-agent causal audit | strongest AI safety / agent observability artifact |
 | [ProofPath](https://github.com/safal207/ProofPath) | pre-execution action guard | strongest fintech / API / AI-agent authorization artifact |
 | [LiminalDB](https://github.com/safal207/LiminalDB) | replayable event-memory DB | grant/public-good infrastructure path |
@@ -171,6 +202,7 @@ This background shapes my AI safety work: I treat agent oversight as an engineer
 
 For reviewers, grantmakers, and collaborators:
 
+- [Kairos Gate for X-Cell — bio direction](https://github.com/safal207/Kairos-Gate-for-X-Cell)
 - [Causal-Memory-Layer](https://github.com/safal207/Causal-Memory-Layer)
 - [ProofPath reviewer first screen](https://github.com/safal207/ProofPath/blob/main/docs/REVIEWER_FIRST_SCREEN.md)
 - [PythiaLabs reviewer start](https://github.com/safal207/pythiaLabs/blob/main/REVIEWER_START_HERE.md)
