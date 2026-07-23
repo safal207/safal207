@@ -10,6 +10,22 @@ High-risk AI-agent actions should be reviewable, replayable, and evidence-backed
 
 My work focuses on the infrastructure layer between an AI-agent proposal and a real-world effect: tool calls, code changes, infrastructure actions, financial workflows, governance actions, public-good protocols, and other high-impact operations.
 
+## About me
+
+> **Aleksey Safonov (Alex Lim, [@safal207](https://github.com/safal207)) — founder and evidence-systems builder**
+>
+> QA engineer, AI-product builder, and entrepreneur focused on turning uncertain, high-stakes ideas into testable protocols, traceable artifacts, and bounded decisions.
+>
+> **Mission:** build trustworthy infrastructure where AI models may propose possibilities, but evidence contracts and authorized humans determine what is supported and what may proceed.
+>
+> **Working principles:** root causes over symptoms · evidence over confidence · power under control · one verifiable artifact at a time.
+>
+> **Current frontier:** [Kairos Gate for X-Cell](https://github.com/safal207/Kairos-Gate-for-X-Cell), an evidence and governance layer for agentic biology that separates scientific support from permission to act.
+>
+> **Role boundary:** I do not present myself as a biologist or clinician and do not authorize experiments or treatment. My contribution is QA, product thinking, causal and evidence architecture, reproducibility, traceability, and governance.
+>
+> **Personal archetype:** the Silver Surfer — great power restrained by principle, balance, and responsibility.
+
 ## Core thesis
 
 Modern AI systems do not only answer questions. They increasingly call tools, write code, modify infrastructure, move data, trigger workflows, and make decisions with real-world consequences.
