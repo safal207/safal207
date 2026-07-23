@@ -46,6 +46,33 @@ My work focuses on the infrastructure layer between an AI-agent proposal and a r
 >
 > **Open the bio direction → [Kairos Gate for X-Cell](https://github.com/safal207/Kairos-Gate-for-X-Cell)**
 
+## External bio ecosystem map
+
+Kairos Gate is being designed to audit, compare, or interoperate with public open-source biology projects. These are **technical and scientific ecosystem relationships**, not claims of affiliation, endorsement, integration, or formal partnership.
+
+| External repository | Ecosystem role | Kairos relationship |
+|---|---|---|
+| [DeplanckeLab/Live-seq](https://github.com/DeplanckeLab/Live-seq) | longitudinal single-cell transcriptomics and linked later phenotype | current reference case for source provenance, experimental-unit semantics, temporal identity, and replication-gap auditing |
+| [NVIDIA/BioNeMo](https://github.com/NVIDIA/BioNeMo) | central open developer platform and index for AI-driven life-science tooling | target ecosystem for evidence passports, model governance, and reproducible compatibility reports |
+| [NVIDIA-BioNeMo/bionemo-framework](https://github.com/NVIDIA-BioNeMo/bionemo-framework) | training and adaptation framework for biomolecular models | planned compatibility gate covering modality, species, context, timing, license, compute, training overlap, and domain shift |
+| [ArcInstitute/evo2](https://github.com/ArcInstitute/evo2) | DNA foundation model for genome modeling and design | model-compatibility candidate; generated outputs must not substitute for independent biological evidence |
+| [ArcInstitute/state](https://github.com/ArcInstitute/state) | cellular perturbation-response prediction | evaluation candidate for separating predictive performance from causal, experimental, or therapeutic support |
+| [ArcInstitute/cell-eval](https://github.com/ArcInstitute/cell-eval) | perturbation-prediction evaluation metrics | candidate benchmark layer for machine-readable model evidence and reproducible score provenance |
+| [ArcInstitute/SRAgent](https://github.com/ArcInstitute/SRAgent) | LLM agents for SRA and bioinformatics-database discovery | comparison and integration candidate for provenance-aware dataset search, rejection reasons, and evidence retention |
+| [bowang-lab/scGPT](https://github.com/bowang-lab/scGPT) | single-cell foundation model | compatibility candidate requiring explicit species, modality, training-overlap, context, and domain-shift checks |
+
+```text
+public model or dataset
+          ↓
+exact-version provenance
+          ↓
+Kairos evidence contracts
+          ↓
+supported, limited, unresolved, or blocked claim
+```
+
+A repository appearing in this map means it is a relevant public evidence, model, benchmark, or agent surface. It does **not** mean its maintainers have reviewed, approved, adopted, or partnered with Kairos Gate.
+
 ## Core thesis
 
 Modern AI systems do not only answer questions. They increasingly call tools, write code, modify infrastructure, move data, trigger workflows, and make decisions with real-world consequences.
