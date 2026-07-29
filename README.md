@@ -10,6 +10,12 @@ High-risk AI-agent actions should be reviewable, replayable, and evidence-backed
 
 My work focuses on the infrastructure layer between an AI-agent proposal and a real-world effect: tool calls, code changes, infrastructure actions, financial workflows, governance actions, public-good protocols, and other high-impact operations.
 
+## Current external conversations
+
+> **NVIDIA — active exploratory correspondence (July 2026).** I am in direct email correspondence with the NVIDIA Connect and NVIDIA Inception program teams regarding the most appropriate pathway for my open-source agent-assurance work, including the [Open Secure AI Alliance](https://www.nvidia.com/en-us/open-secure-ai-alliance/).
+>
+> This is a factual status update only. It does **not** imply membership, acceptance, affiliation, partnership, endorsement, or adoption by NVIDIA or the alliance.
+
 ## About me
 
 > **Aleksey Safonov (Alex Lim, [@safal207](https://github.com/safal207)) — founder and evidence-systems builder**
