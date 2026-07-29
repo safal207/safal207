@@ -12,7 +12,9 @@ My work focuses on the infrastructure layer between an AI-agent proposal and a r
 
 ## Current external conversations
 
-> **NVIDIA — active exploratory correspondence (July 2026).** I am in direct email correspondence with the NVIDIA Connect and NVIDIA Inception program teams regarding the most appropriate pathway for my open-source agent-assurance work, including the [Open Secure AI Alliance](https://www.nvidia.com/en-us/open-secure-ai-alliance/).
+> **NVIDIA — Open Secure AI Alliance inquiry submitted (29 July 2026).** I submitted the official alliance form as an independent open-source maintainer and sent follow-up updates to the NVIDIA Connect and NVIDIA Inception program teams about the open-source agent-assurance portfolio.
+>
+> **Status:** awaiting guidance on the appropriate contributor or ecosystem pathway.
 >
 > This is a factual status update only. It does **not** imply membership, acceptance, affiliation, partnership, endorsement, or adoption by NVIDIA or the alliance.
 
