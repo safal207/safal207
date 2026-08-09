@@ -18,6 +18,41 @@ My work focuses on the infrastructure layer between an AI-agent proposal and a r
 >
 > This is a factual status update only. It does **not** imply membership, acceptance, affiliation, partnership, endorsement, or adoption by NVIDIA or the alliance.
 
+## External review / falsification trail
+
+My post-sandbox agent-governance work is being shared for adversarial review. The goal is to collect counterexamples, reproducible failure traces, and evidence-backed review state — not logos or implied endorsements.
+
+| External target | Current evidence state | What it means |
+|---|---|---|
+| OpenAI | **ROUTED** | Support case #12892239 was explicitly passed to an appropriate internal team for review. |
+| Anthropic Safeguards | **ACKNOWLEDGED** | Intake was acknowledged; technical review is not confirmed. |
+| Meta | **SENT** | Post-sandbox governance one-pager, benchmark context, and external review trail were sent to the public Muse Spark Safety & Preparedness correspondence contact. |
+| Hugging Face Security | **ACKNOWLEDGED** | Security report #41899 was received via automated acknowledgement. |
+| OpenSSF AI/ML Security WG | **SENT** | Adversarial review request sent. |
+| OWASP agentic-security / AI-testing contacts | **SENT** | Causal Transition Guard / Agent Trust Runtime material sent for review. |
+| Invariant Labs | **SENT** | Multi-agent trust-runtime technical review requested. |
+| AVERI-related third-party verification outreach | **SENT** | Open-source evidence-layer material sent for independent-review consideration. |
+
+**Important:** `SENT`, `ACKNOWLEDGED`, and `ROUTED` are review-process states. They do **not** mean endorsement, independent reproduction, adoption, or validation.
+
+The review trail is itself machine-verifiable:
+
+```text
+external response
+      ↓
+Review Event Envelope
+      ↓
+evidence-backed state transition
+      ↓
+External Validation Graph / EEW
+      ↓
+Git + CI
+      ↓
+ProofPath / CML
+```
+
+**Evidence source:** [LiminalOSAI — post-sandbox governance review trail](https://github.com/safal207/LiminalOSAI/pull/174)
+
 ## About me
 
 > **Aleksey Safonov (Alex Lim, [@safal207](https://github.com/safal207)) — founder and evidence-systems builder**
