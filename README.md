@@ -10,6 +10,28 @@ High-risk AI-agent actions should be reviewable, replayable, and evidence-backed
 
 My work focuses on the infrastructure layer between an AI-agent proposal and a real-world effect: tool calls, code changes, infrastructure actions, financial workflows, governance actions, public-good protocols, and other high-impact operations.
 
+## Creator & Editor — RESONANCE
+
+> ### 🌐 [RESONANCE — Journal of Intelligence, Technology & Human Progress](https://safal207.github.io/RESONANCE/)
+>
+> I am the **creator and editor of RESONANCE**, an independent, evidence-first global journal about AI agents, trust infrastructure, science, technology, startups, and human progress.
+>
+> RESONANCE is the readable public layer above my research repositories: GitHub keeps the code, fixtures, benchmarks, PRs, and verification trail; the journal turns that evidence into clear stories, testable ideas, and open questions that engineers, researchers, founders, and product teams can actually engage with.
+>
+> **Why RESONANCE is different:**
+>
+> - **Evidence-first:** important claims link back to inspectable source material, code, PRs, fixtures, benchmarks, or authoritative references.
+> - **Readable research:** dense technical threads become clear narratives — problem → mechanism → evidence → verification → implication → action.
+> - **Multilingual:** key publication paths are available in **English, Russian, and Simplified Chinese**.
+> - **Market dialogue, not vanity metrics:** selected articles end with a concrete open question designed to surface real workflows, missing guarantees, and product needs.
+> - **Research-to-product loop:** `PUBLISH → ASK → LISTEN → DIAGNOSE → PILOT → PROVE → BUILD`.
+> - **Inspectable publication quality:** SEO, internal-link, and Lighthouse experience contracts run in CI before publication.
+>
+> **Recent research:** [Memory Can Be True and Still Be Unsafe](https://safal207.github.io/RESONANCE/memory-can-be-true-and-still-be-unsafe.html) — why historical truth should not automatically retain current authority to drive an AI-agent action.
+>
+> **Open the journal → [RESONANCE](https://safal207.github.io/RESONANCE/)**  
+> **Source repository → [safal207/RESONANCE](https://github.com/safal207/RESONANCE)**
+
 ## Current external conversations
 
 > **NVIDIA — Open Secure AI Alliance inquiry submitted (29 July 2026).** I submitted the official alliance form as an independent open-source maintainer and sent follow-up updates to the NVIDIA Connect and NVIDIA Inception program teams about the open-source agent-assurance portfolio.
@@ -130,6 +152,16 @@ My research and engineering work asks:
 
 ## Active projects
 
+### [RESONANCE](https://safal207.github.io/RESONANCE/)
+
+Independent evidence-first journal and market-dialogue layer for AI, trust infrastructure, science, technology, startups, and human progress.
+
+```text
+research signal -> evidence -> readable story -> open question -> real workflow -> product signal
+```
+
+RESONANCE makes the technical work easier to inspect and easier to discuss outside a repository. It connects public research artifacts to a multilingual editorial layer and a structured `PUBLISH → ASK → LISTEN → BUILD` loop.
+
 ### [Kairos Gate for X-Cell](https://github.com/safal207/Kairos-Gate-for-X-Cell)
 
 Evidence and governance layer for agentic biology.
@@ -213,6 +245,7 @@ verifiable trust infrastructure for AI agents, fintech actions, memory systems, 
 
 | Project | Role | Why it matters |
 |---|---|---|
+| [RESONANCE](https://safal207.github.io/RESONANCE/) | evidence-first journal + market-dialogue layer | turns research artifacts into readable multilingual narratives, open questions, and product signals |
 | [Kairos Gate for X-Cell](https://github.com/safal207/Kairos-Gate-for-X-Cell) | agentic-biology evidence and governance layer | main bio direction; separates scientific support from permission to act |
 | [Causal-Memory-Layer](https://github.com/safal207/Causal-Memory-Layer) | AI-agent causal audit | strongest AI safety / agent observability artifact |
 | [ProofPath](https://github.com/safal207/ProofPath) | pre-execution action guard | strongest fintech / API / AI-agent authorization artifact |
@@ -272,6 +305,8 @@ This background shapes my AI safety work: I treat agent oversight as an engineer
 
 For reviewers, grantmakers, and collaborators:
 
+- [RESONANCE — evidence-first journal](https://safal207.github.io/RESONANCE/)
+- [RESONANCE source repository](https://github.com/safal207/RESONANCE)
 - [Kairos Gate for X-Cell — bio direction](https://github.com/safal207/Kairos-Gate-for-X-Cell)
 - [Causal-Memory-Layer](https://github.com/safal207/Causal-Memory-Layer)
 - [ProofPath reviewer first screen](https://github.com/safal207/ProofPath/blob/main/docs/REVIEWER_FIRST_SCREEN.md)
@@ -292,5 +327,5 @@ GitHub: https://github.com/safal207
 ## Short version
 
 ```text
-I build deterministic oversight layers that gate, audit, and explain high-risk AI-agent actions before execution.
+I build deterministic oversight layers that gate, audit, and explain high-risk AI-agent actions before execution — and publish the evidence and open questions through RESONANCE.
 ```
