@@ -55,6 +55,48 @@ I distinguish completed collaboration, independent interoperability, merged open
 **Relationship boundary:** `active collaborator` means a completed working engagement, independent interoperability result, or merged open-source contribution. `Pilot conversation` does not mean customer, partner, adoption, endorsement, or signed engagement.
 <!-- partners:end -->
 
+<!-- smart-contract-services:start -->
+## 🛡️ Smart-contract QA — accepting paid engagements
+
+I accept **fixed-scope paid engagements** for independent smart-contract QA, adversarial testing, and financial state-machine verification.
+
+**Best fit:** escrow, streaming payments, vesting, payouts and revenue sharing, wallets, DeFi/FinTech contracts, and agentic-payment systems. Solidity/Foundry is supported; other contract stacks can be agreed per scope.
+
+### What I test
+
+- lifecycle and state transitions: create → fund → execute → cancel/dispute → settle;
+- value conservation, fees, balances, rounding, and exact end-time/cancellation boundaries;
+- authorization, access control, replay/idempotency, retries, and concurrent calls;
+- stuck funds, dead-end states, duplicate settlement or payout, stale state, and partial failure;
+- contract ↔ API/backend ↔ ledger/audit consistency;
+- regression, invariant, negative, boundary, and property-based tests.
+
+### What the client receives
+
+- a bounded test scope and risk model;
+- reproducible failing tests and exact traces for confirmed issues;
+- severity, business impact, and minimal remediation guidance;
+- regression/invariant coverage and a concise engineering report;
+- an optional fix or pull request when separately agreed.
+
+### Engagement model
+
+- start with one critical workflow instead of an open-ended audit;
+- fixed scope, fee, authorization boundary, and deliverables agreed before execution;
+- repository, testnet, sandbox, or another explicitly authorized test surface;
+- no broad production access required;
+- async written collaboration is available.
+
+Recent verification scopes include escrow lifecycle safety, cancellation and exact end-time settlement, value conservation, dispute/release boundaries, concurrent execution, and duplicate/retry exposure.
+
+**Request a review:** send the repository or contract link, chain and tooling, highest-risk workflow, current test status, and desired deadline to **safal0645@gmail.com** or Telegram **[@Alexfox14](https://t.me/Alexfox14)**.
+
+**Evidence tooling:** [ContractGraph-QA](https://github.com/safal207/ContractGraph-QA)
+
+> Independent QA and adversarial review reduce uncertainty within an agreed scope. They are not a guarantee of zero vulnerabilities, formal certification, or permission to test systems without authorization.
+<!-- smart-contract-services:end -->
+
+
 ## Current external conversations
 
 > **NVIDIA — Open Secure AI Alliance inquiry submitted (29 July 2026).** I submitted the official alliance form as an independent open-source maintainer and sent follow-up updates to the NVIDIA Connect and NVIDIA Inception program teams about the open-source agent-assurance portfolio.
