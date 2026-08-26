@@ -1,0 +1,86 @@
+name: Update profile partners card
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/update-profile-partners.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Add evidence-backed partners card
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          readme = Path("README.md")
+          text = readme.read_text(encoding="utf-8")
+
+          block = r'''<!-- partners:start -->
+          ## Partners & verified collaborations
+
+          I distinguish completed collaboration, independent interoperability, merged open-source contribution, and pilot-stage conversations. Every status below is evidence-backed; none is a blanket endorsement or implied corporate alliance.
+
+          ### Active collaborators
+
+          | Organization / project | Relationship | Verified status |
+          |---|---|---|
+          | [Valta](https://www.valta.co/) · [pilot lab](https://github.com/safal207/valta-pilot-lab) | Product verification and pilot collaboration | Completed and mutually signed-off Sprint 1 on agent-payment policy enforcement, concurrent-spend behavior, and retry/idempotency exposure; fixed-scope buyer pilots are being developed. |
+          | [Governex Agent Action Receipts](https://github.com/governex/agent-action-receipts-vectors) · [T-Trace/OpenPoC report](https://github.com/safal207/T-Trace/blob/main/docs/governex-action-receipts-compatibility.md) | Independent interoperability collaboration | T-Trace/OpenPoC independently matched all 13 public conformance vectors without importing the reference verifier; the planned `-01` Implementation Status will name the implementation. |
+          | [AgenTrust trace-spec](https://github.com/agentrust-io/trace-spec) | Open-source standards collaboration | Verification-outcome guidance was reviewed and merged in [PR #215](https://github.com/agentrust-io/trace-spec/pull/215); active work continues around action receipts and verification depth. |
+
+          ### Fixed-scope pilot conversations
+
+          | Organization | Current state | Proposed pilot |
+          |---|---|---|
+          | [Passes](https://passes.com/) | Routed internally for product/payments review | Creator payment → earning → payout → reconciliation; timeout/retry pressure test; fixed scope `$500`. |
+          | [PaySureFy](https://paysurefy.com/) | Context qualified; fixed-scope offer sent for product/engineering review | Funded escrow → release/dispute → final settlement; boundary, retry, and exact-settlement tests; fixed scope `$750`. |
+
+          **Relationship boundary:** `active collaborator` means a completed working engagement, independent interoperability result, or merged open-source contribution. `Pilot conversation` does not mean customer, partner, adoption, endorsement, or signed engagement.
+          <!-- partners:end -->'''
+          block = "\n".join(line[10:] if line.startswith("          ") else line for line in block.splitlines())
+
+          start = "<!-- partners:start -->"
+          end = "<!-- partners:end -->"
+
+          if start in text and end in text:
+              pattern = re.compile(r"<!-- partners:start -->.*?<!-- partners:end -->", re.DOTALL)
+              text = pattern.sub(block, text, count=1)
+          else:
+              anchor = "**Source repository → [safal207/RESONANCE](https://github.com/safal207/RESONANCE)**"
+              if anchor not in text:
+                  raise SystemExit("README insertion anchor not found")
+              text = text.replace(anchor, anchor + "\n\n" + block, 1)
+
+          readme.write_text(text.rstrip() + "\n", encoding="utf-8")
+
+          # One-shot workflow: remove itself after applying the profile update.
+          workflow = Path(".github/workflows/update-profile-partners.yml")
+          if workflow.exists():
+              workflow.unlink()
+          PY
+
+      - name: Commit profile update
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "docs(profile): add partners and collaboration status"
+          git push
