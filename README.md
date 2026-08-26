@@ -4,7 +4,7 @@
 
 **Independent smart-contract testing, AI-agent verification, agentic-payment security, and FinTech reliability engineering.**
 
-> When a payout, escrow release, settlement, or agent action times out, retries, races, or recovers from stale state — can you still prove that **exactly one correct outcome** happened?
+> When a payout, escrow release, settlement, or agent action times out, retries, races, or recovers from stale state — can you prove whether **zero, one, or an unknown number of economic effects** occurred, and block retry when the answer is unknown?
 
 I help Web3, DeFi, FinTech, and AI-agent teams turn one high-risk transition into **bounded adversarial tests, reproducible evidence, and regression coverage before production**.
 
@@ -36,6 +36,48 @@ Broad production access is not required. A repository, testnet, sandbox, test co
 
 ---
 
+<!-- recovery-kit:start -->
+## ⚡ Free diagnostic — Ambiguous Payment Recovery Kit
+
+> **Your provider said `accepted`. Can your workflow prove whether zero, one, or an unknown number of economic effects occurred before permitting a retry?**
+
+### **[Run the live seven-question self-test →](https://ambiguous-payment-recovery-kit.lovable.app/?ref=github-profile&utm_source=github&utm_medium=profile&utm_campaign=ambiguous-payment-recovery)**
+
+The kit maps the evidence boundary across:
+
+```text
+authorization
+→ provider
+→ external rail
+→ recipient
+→ customer ledger
+```
+
+| Verdict | What the evidence supports | Safe action |
+|---|---|---|
+| `VERIFIED` | One matching economic effect is independently observed | Finalize; do not retry |
+| `SAFE_TO_RETRY` | Zero effects and a pre-effect rejection are proven | Permit a new attempt under policy |
+| `UNVERIFIED` | The provider accepted, but the expected effect is absent | Do not claim success |
+| `RECONCILE_REQUIRED` | An effect may have occurred or evidence disagrees | Block blind retry and reconcile |
+
+**Public sandbox proof:**
+
+```text
+24 retry attempts
+→ 1 durable reservation owner
+→ 23 stale or duplicate attempts rejected
+→ 1 external rail effect
+→ 1 linked customer-ledger posting
+→ receipt integrity: PASS
+```
+
+[Live recovery kit](https://ambiguous-payment-recovery-kit.lovable.app/?ref=github-profile&utm_source=github&utm_medium=profile&utm_campaign=ambiguous-payment-recovery) · [Executable proof and pilot lab](https://github.com/safal207/valta-pilot-lab) · [Request a fixed-scope review](mailto:safal0645@gmail.com?subject=Ambiguous%20payment%20recovery%20review)
+
+> Boundary: this is reproducible evidence for the declared sandbox model, not a universal exactly-once guarantee, custody service, payment rail, or compliance certificate.
+<!-- recovery-kit:end -->
+
+---
+
 ## What I verify
 
 | Search area | Practical question | Primary project |
@@ -44,7 +86,7 @@ Broad production access is not required. A repository, testnet, sandbox, test co
 | **AI-agent verification and action receipts** | Does a valid-looking trace actually support the claimed real-world effect, or can evidence be stale, replayed, incomplete, or bypassed? | [T-Trace / OpenPoC](https://github.com/safal207/T-Trace) |
 | **AI-agent authorization and payment security** | Should this exact action execute now, under this authority, scope, budget, recipient, and approval? | [ProofPath](https://github.com/safal207/ProofPath) |
 | **AI-agent audit trails and causal lineage** | Why was this action allowed, and does its task, delegation, policy, or human-approval ancestry still exist? | [Causal-Memory-Layer](https://github.com/safal207/Causal-Memory-Layer) |
-| **FinTech reliability and payment reconciliation** | Do API responses, contract state, wallet balances, ledger entries, and audit evidence converge to one explainable economic outcome? | [First Risk Boundary Review](#paid-review) |
+| **FinTech reliability and payment reconciliation** | Do provider state, external-rail effects, recipient state, customer ledger, and receipts converge to one justified recovery verdict? | [Live Recovery Kit](https://ambiguous-payment-recovery-kit.lovable.app/?ref=github-profile&utm_source=github&utm_medium=profile&utm_campaign=ambiguous-payment-recovery) · [Pilot Lab](https://github.com/safal207/valta-pilot-lab) |
 
 ---
 
@@ -55,6 +97,7 @@ This is **proof, not a logo wall**. I list completed work, independent interoper
 
 | Evidence | Verified result |
 |---|---|
+| [Cross-system payment recovery proof](https://github.com/safal207/valta-pilot-lab) | **24 concurrent retries → 1 durable owner → 23 rejected attempts → 1 external effect → 1 linked ledger posting → independently verifiable receipt** |
 | [Valta Pilot Lab](https://github.com/safal207/valta-pilot-lab) | Completed and mutually signed-off Sprint 1 covering agent-payment policy enforcement, concurrent-spend behavior, and retry/idempotency exposure |
 | [Governex Agent Action Receipts](https://github.com/governex/agent-action-receipts-vectors) | T-Trace/OpenPoC independently matched **13/13** public conformance vectors without importing the reference verifier; accepted for inclusion in the planned `-01` Implementation Status |
 | [AgenTrust trace-spec](https://github.com/agentrust-io/trace-spec) | Verification-outcome guidance was reviewed and merged in [PR #215](https://github.com/agentrust-io/trace-spec/pull/215) |
@@ -159,6 +202,7 @@ A repository or contract link, chain and tooling, the highest-risk transition, c
 
 ## Other ways to enter the work
 
+- **Need to diagnose an ambiguous payment retry?** Start with the [live seven-question Recovery Kit](https://ambiguous-payment-recovery-kit.lovable.app/?ref=github-profile&utm_source=github&utm_medium=profile&utm_campaign=ambiguous-payment-recovery).
 - **Need a reproducible method for financial state transitions?** Start with [ContractGraph-QA](https://github.com/safal207/ContractGraph-QA).
 - **Need independent action-receipt or evidence verification?** Start with [T-Trace / OpenPoC](https://github.com/safal207/T-Trace).
 - **Need a pre-execution control layer for AI-agent actions?** Start with [ProofPath](https://github.com/safal207/ProofPath).
@@ -240,12 +284,14 @@ My current thesis is simple:
 
 ## Follow and share the work
 
+- [Ambiguous Payment Recovery Kit](https://ambiguous-payment-recovery-kit.lovable.app/?ref=github-profile&utm_source=github&utm_medium=profile&utm_campaign=ambiguous-payment-recovery) — live self-test, proof card, and machine-readable sandbox result.
 - [RESONANCE](https://safal207.github.io/RESONANCE/) — evidence-first articles, verified reports, open problems, and market questions.
 - [GitHub @safal207](https://github.com/safal207) — executable fixtures, tests, protocols, and public verification trails.
 - [Brand, SEO & SMM kit](BRAND_SEO_SMM.md) — canonical bios, project one-liners, content pillars, and ready-to-use post formats.
 
 ## Contact
 
+**Free recovery self-test:** [open the live kit](https://ambiguous-payment-recovery-kit.lovable.app/?ref=github-profile&utm_source=github&utm_medium=profile&utm_campaign=ambiguous-payment-recovery)  
 **Paid review:** [send one high-risk workflow](mailto:safal0645@gmail.com?subject=Fixed-scope%20verification%20request)  
 **Research, standards, grants, or collaboration:** [safal0645@gmail.com](mailto:safal0645@gmail.com)  
 **Telegram:** [@Alexfox14](https://t.me/Alexfox14)  
