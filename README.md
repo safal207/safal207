@@ -10,6 +10,8 @@ I help Web3, DeFi, FinTech, and AI-agent teams turn one high-risk transition int
 
 I bring **12+ years of QA and FinTech reliability experience** across banking, brokerage, REST APIs, WebSockets, SQL, integrations, payment reconciliation, risk, regression strategy, and failure analysis.
 
+**Latest public interoperability:** [T-Trace/OpenPoC](https://github.com/safal207/T-Trace) independently matched **18/18 Governex `-01` checks**; Governex now links the independent reports, and the draft author confirmed named RFC 7942 Implementation Status credit in the forthcoming revision.
+
 ```text
 one critical workflow
         ↓
@@ -99,13 +101,18 @@ This is **proof, not a logo wall**. I list completed work, independent interoper
 |---|---|
 | [Cross-system payment recovery proof](https://github.com/safal207/valta-pilot-lab) | **24 concurrent retries → 1 durable owner → 23 rejected attempts → 1 external effect → 1 linked ledger posting → independently verifiable receipt** |
 | [Valta Pilot Lab](https://github.com/safal207/valta-pilot-lab) | Completed and mutually signed-off Sprint 1 covering agent-payment policy enforcement, concurrent-spend behavior, and retry/idempotency exposure |
-| [Governex Agent Action Receipts](https://github.com/governex/agent-action-receipts-vectors) | T-Trace/OpenPoC independently matched **13/13** public conformance vectors without importing the reference verifier; accepted for inclusion in the planned `-01` Implementation Status |
+| [Governex Agent Action Receipts](https://github.com/governex/agent-action-receipts-vectors) | T-Trace/OpenPoC independently matched **18/18 pinned `-01` checks** — 16 receipt-log vectors plus 2 signed-head checks — without importing or executing the upstream verifier. Governex publicly links the reports, and the forthcoming `-01` RFC 7942 Implementation Status is confirmed to credit **Aleksei Safonov — Independent Researcher and Maintainer of T-Trace/OpenPoC**. |
 | [AgenTrust trace-spec](https://github.com/agentrust-io/trace-spec) | Verification-outcome guidance was reviewed and merged in [PR #215](https://github.com/agentrust-io/trace-spec/pull/215) |
 
-**Governex compatibility evidence:**  
-[Report](https://github.com/safal207/T-Trace/blob/main/docs/governex-action-receipts-compatibility.md) · [Verifier source](https://github.com/safal207/T-Trace/blob/main/openpoc/action_receipt_compat.py) · [Pinned interoperability workflow](https://github.com/safal207/T-Trace/actions/workflows/governex-action-receipts.yml)
+**Standards contribution:** technical feedback from the T-Trace/OpenPoC review informed the new repeated-`step_id`, signed-`seq` gap/reuse, and external signed-head assertion vectors. This is independent interoperability and threat-boundary work — not co-authorship, IETF adoption, or endorsement.
 
-**Boundary:** these are different kinds of evidence. None implies blanket corporate partnership, adoption, or endorsement.
+**Governex original `-00` evidence:**  
+[13/13 report](https://github.com/safal207/T-Trace/blob/main/docs/governex-action-receipts-compatibility.md) · [Verifier source](https://github.com/safal207/T-Trace/blob/main/openpoc/action_receipt_compat.py) · [Pinned workflow](https://github.com/safal207/T-Trace/actions/workflows/governex-action-receipts.yml)
+
+**Governex `-01` evidence:**  
+[18/18 report](https://github.com/safal207/T-Trace/blob/main/docs/governex-action-receipts-v01-compatibility.md) · [Capture-side review](https://github.com/safal207/T-Trace/blob/main/docs/governex-action-receipts-v01-capture-review.md) · [Verifier source](https://github.com/safal207/T-Trace/blob/main/openpoc/action_receipt_compat_v01.py) · [Pinned workflow](https://github.com/safal207/T-Trace/actions/workflows/governex-action-receipts-v01.yml) · [PR #23](https://github.com/safal207/T-Trace/pull/23)
+
+**Boundary:** these are different kinds of evidence. None implies blanket corporate partnership, adoption, formal standard status, or endorsement.
 <!-- partners:end -->
 
 ---
@@ -229,6 +236,8 @@ Open protocol and executable fixtures for acknowledged state transitions, action
 ```text
 valid presented trace ≠ proof that every real-world effect was captured
 ```
+
+**External validation:** independently matched Governex action-receipt suites at **13/13 (`-00`)** and **18/18 (`-01`)**; Governex publicly links the reports, and named T-Trace/OpenPoC credit is confirmed for the forthcoming RFC 7942 Implementation Status section.
 
 ### [ProofPath](https://github.com/safal207/ProofPath)
 
