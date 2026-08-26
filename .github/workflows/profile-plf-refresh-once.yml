@@ -1,0 +1,264 @@
+name: Refresh profile conversion layer
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/profile-plf-refresh.trigger
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reframe profile around problem, proof, offer, and one next step
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from textwrap import dedent
+
+          readme = Path("README.md")
+          text = readme.read_text(encoding="utf-8")
+
+          tail_heading = "## Current external conversations"
+          if tail_heading not in text:
+              raise SystemExit(f"Required heading not found: {tail_heading}")
+
+          new_top = dedent(r'''
+          <!-- profile-conversion:start -->
+          # Aleksey Safonov
+
+          **Independent verification for AI-agent, smart-contract, and payment systems**
+
+          > ## When a system says “done,” what proves that exactly one correct real-world effect happened?
+
+          I help founders, maintainers, and engineering teams pressure-test the boundary between **intent and effect** — before retries, concurrency, stale state, partial failure, or inconsistent ledgers turn into lost money, stuck funds, or unsupported success.
+
+          ```text
+          one critical workflow
+                    ↓
+          bounded adversarial test
+                    ↓
+          reproducible evidence
+                    ↓
+          regression coverage and a clear decision
+          ```
+
+          **Open for paid, async, fixed-scope engagements.**
+
+          [📩 Request a fixed-scope review](mailto:safal0645@gmail.com?subject=Fixed-scope%20verification%20request) · [🧪 See ContractGraph-QA](https://github.com/safal207/ContractGraph-QA) · [🤖 Explore T-Trace/OpenPoC](https://github.com/safal207/T-Trace) · [🌐 Read RESONANCE](https://safal207.github.io/RESONANCE/)
+
+          ## Choose your path
+
+          | Your situation | Best starting point | Expected outcome |
+          |---|---|---|
+          | A contract or payment workflow can move, lock, release, or duplicate value | [Smart-contract & payment verification](#paid-review) | Reproducible pressure tests, exact traces, risk classification, and regression coverage |
+          | An AI agent can call tools or claim a real-world result | [T-Trace/OpenPoC](https://github.com/safal207/T-Trace) and [ProofPath](https://github.com/safal207/ProofPath) | Evidence-bound execution, replayable transitions, and unsupported-success detection |
+          | You are reviewing the research, portfolio, or grant direction | [RESONANCE](https://safal207.github.io/RESONANCE/) | A readable evidence layer connecting code, experiments, open questions, and product signals |
+
+          ## The failures I look for
+
+          Most expensive failures do not live on the happy path. They appear when:
+
+          - one logical request commits twice after a timeout or retry;
+          - funds become trapped after cancellation, dispute, expiry, or partial execution;
+          - two valid actions race from the same state and transaction ordering decides the winner;
+          - a contract, API, wallet, ledger, and audit trail disagree about the final outcome;
+          - an agent presents valid-looking but stale, replayed, mutated, or incomplete evidence;
+          - a system reports success without proving the corresponding real-world effect.
+
+          <!-- partners:start -->
+          ## Verified work & independent validation
+
+          This is **proof, not a logo wall**. Each item names the exact boundary that was exercised and avoids implying endorsement beyond the evidence.
+
+          | Evidence | Verified result |
+          |---|---|
+          | [Valta pilot lab](https://github.com/safal207/valta-pilot-lab) | Completed and mutually signed-off Sprint 1 covering agent-payment policy enforcement, concurrent-spend behavior, and retry/idempotency exposure. |
+          | [Governex action-receipt vectors](https://github.com/governex/agent-action-receipts-vectors) · [compatibility report](https://github.com/safal207/T-Trace/blob/main/docs/governex-action-receipts-compatibility.md) | T-Trace/OpenPoC independently matched all **13/13** public conformance vectors without importing the reference verifier; the implementation has been confirmed for the planned `-01` Implementation Status credit. |
+          | [AgenTrust trace-spec](https://github.com/agentrust-io/trace-spec) | Verification-outcome guidance was reviewed and merged in [PR #215](https://github.com/agentrust-io/trace-spec/pull/215). |
+
+          **Boundary:** completed work, interoperability, and merged contribution are different kinds of evidence. None of them implies a blanket corporate partnership, adoption, or endorsement.
+          <!-- partners:end -->
+
+          <a id="paid-review"></a>
+          <!-- smart-contract-services:start -->
+          ## 🛡️ Smart-contract & payment verification — paid engagements open
+
+          ### First Risk Boundary Review
+
+          The first engagement is deliberately small: **one critical economic workflow**, a bounded set of adversarial cases, and evidence the engineering team can reproduce.
+
+          **Best fit**
+
+          - escrow release, dispute, refund, and auto-settlement;
+          - streaming-payment cancellation and exact end-time settlement;
+          - vesting, payouts, fees, revenue sharing, and value conservation;
+          - wallets, DeFi/FinTech contracts, and agentic-payment systems;
+          - contract ↔ API/backend ↔ ledger/audit consistency.
+
+          **Pressure cases**
+
+          - authorization and access-control boundaries;
+          - replay, idempotency, retries, and concurrent calls;
+          - stale state, dead-end states, stuck funds, and partial failure;
+          - duplicate settlement or payout;
+          - rounding, exact-boundary, negative, invariant, and property-based behavior.
+
+          **What you receive**
+
+          1. A concise state-transition and risk map.
+          2. Reproducible failing tests and exact traces for confirmed issues.
+          3. Severity, business impact, and minimal remediation guidance.
+          4. Regression/invariant coverage and a short engineering summary.
+          5. An optional fix or pull request when separately agreed.
+
+          **How the engagement works**
+
+          - scope, fee, authorization boundary, delivery window, and stop conditions are agreed before execution;
+          - repository, testnet, sandbox, test contract, or another explicitly authorized surface is enough;
+          - broad production access is not required;
+          - collaboration can remain fully asynchronous and written;
+          - independent QA reduces uncertainty within the agreed scope; it is not formal certification or a guarantee of zero vulnerabilities.
+
+          ### Start with one question
+
+          > **What is the single transition you cannot afford to get wrong?**
+
+          Send the repository or contract link, chain and tooling, highest-risk workflow, current test status, and desired deadline:
+
+          **[Email: safal0645@gmail.com](mailto:safal0645@gmail.com?subject=Fixed-scope%20verification%20request)** · **[Telegram: @Alexfox14](https://t.me/Alexfox14)**
+
+          **Evidence method:** [ContractGraph-QA](https://github.com/safal207/ContractGraph-QA) — actor → action → state transition → invariant → reproducible evidence.
+          <!-- smart-contract-services:end -->
+
+          ## 🌐 Research and public evidence
+
+          [RESONANCE](https://safal207.github.io/RESONANCE/) is the readable public layer above the repositories. GitHub holds the code, fixtures, benchmarks, PRs, and verification trail; the journal turns that evidence into clear stories and concrete open questions for engineers, researchers, founders, and product teams.
+
+          ```text
+          PUBLISH → ASK → LISTEN → DIAGNOSE → PILOT → PROVE → BUILD
+          ```
+
+          **Recent research:** [Memory Can Be True and Still Be Unsafe](https://safal207.github.io/RESONANCE/memory-can-be-true-and-still-be-unsafe.html) — why historical truth should not automatically retain current authority to drive an AI-agent action.
+
+          [Open RESONANCE](https://safal207.github.io/RESONANCE/) · [View the source repository](https://github.com/safal207/RESONANCE)
+          <!-- profile-conversion:end -->
+          ''').strip()
+
+          text = new_top + "\n\n" + text[text.index(tail_heading):]
+
+          def wrap_range(source: str, start: str, end: str, marker: str, summary: str) -> str:
+              if marker in source:
+                  return source
+              start_index = source.find(start)
+              end_index = source.find(end, start_index + len(start))
+              if start_index == -1 or end_index == -1:
+                  raise SystemExit(f"Cannot wrap range: {start!r} -> {end!r}")
+              body = source[start_index:end_index].rstrip()
+              wrapped = (
+                  f"<!-- {marker}:start -->\n"
+                  f"<details>\n<summary><strong>{summary}</strong></summary>\n\n"
+                  f"{body}\n\n</details>\n"
+                  f"<!-- {marker}:end -->\n\n"
+              )
+              return source[:start_index] + wrapped + source[end_index:]
+
+          text = wrap_range(
+              text,
+              "## Current external conversations",
+              "## About me",
+              "external-review-collapsed",
+              "External review trail and open ecosystem conversations",
+          )
+
+          about_start = text.find("## About me")
+          about_end = text.find("## Bio / Agentic Biology", about_start)
+          if about_start == -1 or about_end == -1:
+              raise SystemExit("Could not locate About me range")
+
+          new_about = dedent(r'''
+          ## Why teams work with me
+
+          I bring **12+ years of software QA and FinTech reliability experience** across banking, brokerage, APIs, WebSockets, SQL, integrations, risk, reporting, regression strategy, and quality-process design.
+
+          My working style is simple:
+
+          - root causes over cosmetic findings;
+          - testable claims over confident prose;
+          - exact state transitions over vague “looks good” sign-off;
+          - bounded authorization and stop conditions;
+          - written, reproducible evidence that another engineer can challenge.
+
+          I combine senior QA practice, systems analysis, product thinking, smart-contract testing, and AI-agent assurance research. The mission is to make high-impact actions reviewable, replayable, and evidence-backed before they become irreversible.
+          ''').strip() + "\n\n"
+
+          text = text[:about_start] + new_about + text[about_end:]
+
+          text = wrap_range(
+              text,
+              "## Bio / Agentic Biology",
+              "## Core thesis",
+              "bio-direction-collapsed",
+              "Agentic biology direction and public ecosystem map",
+          )
+
+          text = wrap_range(
+              text,
+              "## Active projects",
+              "## Status and scope",
+              "portfolio-collapsed",
+              "Research portfolio, Liminal Stack, and project map",
+          )
+
+          reviewer_start = text.find("## Reviewer paths")
+          if reviewer_start != -1:
+              new_ending = dedent(r'''
+              ## Explore and contact
+
+              **For paid verification:** [request a fixed-scope review](mailto:safal0645@gmail.com?subject=Fixed-scope%20verification%20request)  
+              **For research, standards, grants, or collaboration:** [safal0645@gmail.com](mailto:safal0645@gmail.com)  
+              **Telegram:** [@Alexfox14](https://t.me/Alexfox14)  
+              **GitHub:** [@safal207](https://github.com/safal207)
+
+              Selected entry points:
+
+              - [ContractGraph-QA — financial state-transition verification](https://github.com/safal207/ContractGraph-QA)
+              - [T-Trace/OpenPoC — action receipts and assurance boundaries](https://github.com/safal207/T-Trace)
+              - [ProofPath — pre-execution action gateway](https://github.com/safal207/ProofPath)
+              - [Causal-Memory-Layer — causal audit for agent traces](https://github.com/safal207/Causal-Memory-Layer)
+              - [RESONANCE — evidence-first journal](https://safal207.github.io/RESONANCE/)
+
+              ---
+
+              ```text
+              Build calmly. Pressure-test the boundary. Keep the evidence.
+              ```
+              ''').strip() + "\n"
+              text = text[:reviewer_start] + new_ending
+
+          readme.write_text(text, encoding="utf-8")
+          PY
+
+          rm -f .github/profile-plf-refresh.trigger
+          rm -f .github/workflows/profile-plf-refresh-once.yml
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md .github/profile-plf-refresh.trigger .github/workflows/profile-plf-refresh-once.yml
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "docs: refocus profile on problem proof offer and next step"
+          git push
