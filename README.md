@@ -32,6 +32,29 @@ My work focuses on the infrastructure layer between an AI-agent proposal and a r
 > **Open the journal → [RESONANCE](https://safal207.github.io/RESONANCE/)**  
 > **Source repository → [safal207/RESONANCE](https://github.com/safal207/RESONANCE)**
 
+<!-- partners:start -->
+## Partners & verified collaborations
+
+I distinguish completed collaboration, independent interoperability, merged open-source contribution, and pilot-stage conversations. Every status below is evidence-backed; none is a blanket endorsement or implied corporate alliance.
+
+### Active collaborators
+
+| Organization / project | Relationship | Verified status |
+|---|---|---|
+| [Valta](https://www.valta.co/) · [pilot lab](https://github.com/safal207/valta-pilot-lab) | Product verification and pilot collaboration | Completed and mutually signed-off Sprint 1 on agent-payment policy enforcement, concurrent-spend behavior, and retry/idempotency exposure; fixed-scope buyer pilots are being developed. |
+| [Governex Agent Action Receipts](https://github.com/governex/agent-action-receipts-vectors) · [T-Trace/OpenPoC report](https://github.com/safal207/T-Trace/blob/main/docs/governex-action-receipts-compatibility.md) | Independent interoperability collaboration | T-Trace/OpenPoC independently matched all 13 public conformance vectors without importing the reference verifier; the planned `-01` Implementation Status will name the implementation. |
+| [AgenTrust trace-spec](https://github.com/agentrust-io/trace-spec) | Open-source standards collaboration | Verification-outcome guidance was reviewed and merged in [PR #215](https://github.com/agentrust-io/trace-spec/pull/215); active work continues around action receipts and verification depth. |
+
+### Fixed-scope pilot conversations
+
+| Organization | Current state | Proposed pilot |
+|---|---|---|
+| [Passes](https://passes.com/) | Routed internally for product/payments review | Creator payment → earning → payout → reconciliation; timeout/retry pressure test; fixed scope `$500`. |
+| [PaySureFy](https://paysurefy.com/) | Context qualified; fixed-scope offer sent for product/engineering review | Funded escrow → release/dispute → final settlement; boundary, retry, and exact-settlement tests; fixed scope `$750`. |
+
+**Relationship boundary:** `active collaborator` means a completed working engagement, independent interoperability result, or merged open-source contribution. `Pilot conversation` does not mean customer, partner, adoption, endorsement, or signed engagement.
+<!-- partners:end -->
+
 ## Current external conversations
 
 > **NVIDIA — Open Secure AI Alliance inquiry submitted (29 July 2026).** I submitted the official alliance form as an independent open-source maintainer and sent follow-up updates to the NVIDIA Connect and NVIDIA Inception program teams about the open-source agent-assurance portfolio.
