@@ -1,14 +1,14 @@
-# Aleksei Safonov
+# Aleksei Safonov — Smart Contract QA & AI Agent Verification
 
 ## I pressure-test the moment software moves money or claims a real-world result.
 
-**Independent Smart-Contract & AI-Agent Verification Engineer**
+**Independent smart-contract testing, AI-agent verification, agentic-payment security, and FinTech reliability engineering.**
 
 > When a payout, escrow release, settlement, or agent action times out, retries, races, or recovers from stale state — can you still prove that **exactly one correct outcome** happened?
 
-I help Web3, FinTech, and AI-agent teams turn one high-risk transition into **bounded adversarial tests, reproducible evidence, and regression coverage before production**.
+I help Web3, DeFi, FinTech, and AI-agent teams turn one high-risk transition into **bounded adversarial tests, reproducible evidence, and regression coverage before production**.
 
-I bring **12+ years of QA and FinTech reliability experience** across banking, brokerage, APIs, WebSockets, SQL, integrations, risk, regression strategy, and failure analysis.
+I bring **12+ years of QA and FinTech reliability experience** across banking, brokerage, REST APIs, WebSockets, SQL, integrations, payment reconciliation, risk, regression strategy, and failure analysis.
 
 ```text
 one critical workflow
@@ -33,6 +33,18 @@ I will respond with a **fit / no-fit assessment**, then propose the scope, autho
 
 Broad production access is not required. A repository, testnet, sandbox, test contract, or another explicitly authorized surface is enough.
 <!-- profile-offer:end -->
+
+---
+
+## What I verify
+
+| Search area | Practical question | Primary project |
+|---|---|---|
+| **Smart-contract QA and Solidity testing** | Can escrow, settlement, vesting, payout, or cancellation logic lose, duplicate, lock, or misallocate value? | [ContractGraph-QA](https://github.com/safal207/ContractGraph-QA) |
+| **AI-agent verification and action receipts** | Does a valid-looking trace actually support the claimed real-world effect, or can evidence be stale, replayed, incomplete, or bypassed? | [T-Trace / OpenPoC](https://github.com/safal207/T-Trace) |
+| **AI-agent authorization and payment security** | Should this exact action execute now, under this authority, scope, budget, recipient, and approval? | [ProofPath](https://github.com/safal207/ProofPath) |
+| **AI-agent audit trails and causal lineage** | Why was this action allowed, and does its task, delegation, policy, or human-approval ancestry still exist? | [Causal-Memory-Layer](https://github.com/safal207/Causal-Memory-Layer) |
+| **FinTech reliability and payment reconciliation** | Do API responses, contract state, wallet balances, ledger entries, and audit evidence converge to one explainable economic outcome? | [First Risk Boundary Review](#paid-review) |
 
 ---
 
@@ -121,6 +133,30 @@ Recent scopes include escrow lifecycle safety, value conservation, dispute/relea
 
 ---
 
+## Frequently asked questions
+
+### What is smart-contract QA?
+
+Smart-contract QA verifies whether allowed sequences of actors, calls, values, timestamps, retries, and concurrent transactions can violate a business or security invariant. It complements code review by testing reachable economic behavior and producing reproducible evidence.
+
+### What is AI-agent verification?
+
+AI-agent verification checks whether a specific action or claimed outcome is supported by current authority, exact intent, policy, causal lineage, action receipts, and independently inspectable evidence. Authentication alone does not prove that an action was appropriate or that its real-world effect occurred.
+
+### What is agentic-payment verification?
+
+Agentic-payment verification tests whether an AI-initiated payment remains bounded by recipient scope, asset rules, budgets, approvals, replay protection, idempotency, reconciliation, and auditable outcome evidence.
+
+### Do you perform unrestricted production testing?
+
+No. Testing stays inside an explicitly authorized repository, testnet, sandbox, test contract, API surface, or other agreed boundary. Public code or a public endpoint is not treated as authorization.
+
+### What do you need for the first assessment?
+
+A repository or contract link, chain and tooling, the highest-risk transition, current test status, and desired deadline. The first useful scope is usually one critical workflow rather than a broad open-ended audit.
+
+---
+
 ## Other ways to enter the work
 
 - **Need a reproducible method for financial state transitions?** Start with [ContractGraph-QA](https://github.com/safal207/ContractGraph-QA).
@@ -201,6 +237,12 @@ My current thesis is simple:
 > AI models may propose possibilities. Evidence determines what is supported. Authorized humans determine what may proceed.
 
 ---
+
+## Follow and share the work
+
+- [RESONANCE](https://safal207.github.io/RESONANCE/) — evidence-first articles, verified reports, open problems, and market questions.
+- [GitHub @safal207](https://github.com/safal207) — executable fixtures, tests, protocols, and public verification trails.
+- [Brand, SEO & SMM kit](BRAND_SEO_SMM.md) — canonical bios, project one-liners, content pillars, and ready-to-use post formats.
 
 ## Contact
 
