@@ -1,1 +1,0 @@
-Temporary staging note for profile-card update. This file will be removed after the profile README is updated.
