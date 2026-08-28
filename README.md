@@ -22,6 +22,29 @@ bounded pressure test
 reproducible evidence and a clear ship / fix / stop decision
 ```
 
+<!-- portable-evidence-pack:start -->
+## 📦 New product — Portable Hydrated Lattice Evidence Pack
+
+> **One ZIP. Exact inputs. Machine verdict. Human explanation. Independent replay.**
+
+ContractGraph-QA now turns a financial or smart-contract state-machine assessment into a portable evidence package that another engineer can verify on a separate machine.
+
+```text
+contract structure
++ observed execution
++ reviewed authority / time bindings
+→ PASS | FAIL | INCONCLUSIVE
+→ deterministic evidence.zip
+→ independent type-sensitive replay
+```
+
+The verifier checks canonical JSON and ZIP metadata, every entry hash and size, semantic replay, type drift, tampering, and an optional separately obtained SHA-256 for exact-byte integrity.
+
+**Shipped and reviewed:** [product documentation](https://github.com/safal207/ContractGraph-QA/blob/main/docs/HYDRATED_LATTICE_EVIDENCE_PACK.md) · [merged implementation PR #97](https://github.com/safal207/ContractGraph-QA/pull/97) · [completed product scope #96](https://github.com/safal207/ContractGraph-QA/issues/96)
+
+> Boundary: this is a reproducible proof package, not a security certificate, source-identity proof, or authorization to move money.
+<!-- portable-evidence-pack:end -->
+
 <!-- profile-offer:start -->
 ### 🟢 Open for paid, fixed-scope engagements
 
@@ -99,6 +122,7 @@ This is **proof, not a logo wall**. I list completed work, independent interoper
 
 | Evidence | Verified result |
 |---|---|
+| [Portable Hydrated Lattice Evidence Pack](https://github.com/safal207/ContractGraph-QA/blob/main/docs/HYDRATED_LATTICE_EVIDENCE_PACK.md) | **Exact inputs + machine verdict + human summary → deterministic ZIP → independent type-sensitive replay; merged after exact-head CI, Product, Portability, Finding report, and measurement-provenance validation** |
 | [Cross-system payment recovery proof](https://github.com/safal207/valta-pilot-lab) | **24 concurrent retries → 1 durable owner → 23 rejected attempts → 1 external effect → 1 linked ledger posting → independently verifiable receipt** |
 | [Valta Pilot Lab](https://github.com/safal207/valta-pilot-lab) | Completed and mutually signed-off Sprint 1 covering agent-payment policy enforcement, concurrent-spend behavior, and retry/idempotency exposure |
 | [Governex Agent Action Receipts](https://github.com/governex/agent-action-receipts-vectors) | T-Trace/OpenPoC independently matched **18/18 pinned `-01` checks** — 16 receipt-log vectors plus 2 signed-head checks — without importing or executing the upstream verifier. Governex publicly links the reports, and the forthcoming `-01` RFC 7942 Implementation Status is confirmed to credit **Aleksei Safonov — Independent Researcher and Maintainer of T-Trace/OpenPoC**. |
@@ -227,7 +251,7 @@ Independent QA framework for stateful financial and contract workflows.
 actor → action → state transition → invariant → reproducible evidence
 ```
 
-Use it to model economic promises, pressure-test failure paths, and produce evidence that engineering teams can replay.
+Use it to model economic promises, pressure-test failure paths, and deliver deterministic evidence ZIPs that another engineer can independently replay.
 
 ### [T-Trace / OpenPoC](https://github.com/safal207/T-Trace)
 
