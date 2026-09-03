@@ -12,6 +12,26 @@ I bring **7+ years of QA and FinTech reliability experience** across banking, br
 
 **Latest public interoperability:** [T-Trace/OpenPoC](https://github.com/safal207/T-Trace) independently matched **18/18 Governex `-01` checks**; Governex now links the independent reports, and the draft author confirmed named RFC 7942 Implementation Status credit in the forthcoming revision.
 
+<!-- recent-external-delivery:start -->
+## Recent external Soroban & reliability delivery
+
+**Public scoreboard: 4 merged upstream PRs — including 3 Soroban/Rust contract contributions — plus 1 Soroban/Rust contract PR in maintainer review.**
+
+Applications are pipeline, not proof. This table counts only GitHub-verifiable delivery states.
+
+| Status | Scope | Evidence |
+|---|---|---|
+| **Merged** | StreamPay contract — exact cancellation and end-time settlement across paused, bounded, and terminal paths | [PR #161](https://github.com/Streampay-Org/StreamPay-Contracts/pull/161) |
+| **Merged** | CommitLabs contract — deterministic stateful lifecycle model and invariant/failure-atomicity coverage | [PR #556](https://github.com/Commitlabs-Org/Commitlabs-Contracts/pull/556) |
+| **Merged** | Stellar Kraal contract — prevent same-ledger loan-ID collisions without changing the public ABI | [PR #162](https://github.com/Stellar-kraal/stellar-kraal-contract/pull/162) |
+| **Merged** | TrustLayer backend — idempotent signal ingestion with replay, conflict, concurrency, and retention coverage | [PR #12](https://github.com/TrustLayer-Org/TrustLayer-Backend/pull/12) |
+| **Maintainer review — Draft** | Stellar Game Studio contract — commit-reveal dice flow, exact settlement/refund behavior, and 93-test workspace verification | [PR #14](https://github.com/Bitcoindefi/Stellar-Game-Studio/pull/14) |
+
+**Current focus:** Soroban/Rust authorization boundaries, lifecycle and value-conservation invariants, failed-transition atomicity, and adversarial regression/property testing.
+
+> Status labels describe the linked GitHub state only; they do not imply payment, endorsement, a full audit, or certification.
+<!-- recent-external-delivery:end -->
+
 ```text
 one critical workflow
         ↓
