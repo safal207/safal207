@@ -335,6 +335,18 @@ My current thesis is simple:
 
 ---
 
+<!-- solvery-mentoring:start -->
+## Ментор по QA и применению ИИ — Алексей Сафонов
+
+Помогаю QA-инженерам и разработчикам разбирать рабочие задачи: тестирование REST API в Postman, SQL, тест-дизайн, подготовка к QA-собеседованию и проверка кода и тестов, созданных ИИ.
+
+Если подписка на ИИ уже есть, а уверенности в результате пока нет, можно начать с одной небольшой задачи. Вместе уточним цель, подготовим контекст и определим, как проверить решение. На занятиях можно задавать базовые вопросы и разбираться в своём темпе.
+
+**[Менторство с Алексеем Сафоновым на Solvery](https://solvery.io/ru/mentor/5295)** — форматы занятий, проекты, отзывы и заявка на бесплатное 15-минутное знакомство.
+<!-- solvery-mentoring:end -->
+
+---
+
 ## Follow and share the work
 
 - [Ambiguous Payment Recovery Kit](https://ambiguous-payment-recovery-kit.lovable.app/?ref=github-profile&utm_source=github&utm_medium=profile&utm_campaign=ambiguous-payment-recovery) — live self-test, proof card, and machine-readable sandbox result.
