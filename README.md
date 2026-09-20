@@ -12,6 +12,8 @@ I bring **7+ years of QA and FinTech reliability experience** across banking, br
 
 **Latest public interoperability:** [T-Trace/OpenPoC](https://github.com/safal207/T-Trace) independently matched **18/18 Governex `-01` checks**; Governex now links the independent reports, and the draft author confirmed named RFC 7942 Implementation Status credit in the forthcoming revision.
 
+**2-minute evidence index:** [Evidence of Engineering Impact](EVIDENCE_OF_ENGINEERING_IMPACT.md) — independent reproduction, applied technical corrections, accepted reliability boundaries, and merged external contributions.
+
 <!-- recent-external-delivery:start -->
 ## Recent external Soroban & reliability delivery
 
