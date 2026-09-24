@@ -174,7 +174,7 @@ Secondary:
 
 ### 300-character bio
 
-> Aleksei Safonov is an independent Smart Contract QA and AI Agent Verification Engineer with 12+ years in FinTech QA. He pressure-tests escrow, settlement, payouts, agentic payments, retries, concurrency, authorization, reconciliation, and evidence completeness.
+> Aleksei Safonov is an independent Smart Contract QA and AI Agent Verification Engineer with 6+ years of commercial manual QA in FinTech and earlier SQL-engineering work in banking. He pressure-tests escrow, payouts, agentic payments, retries, authorization, reconciliation, and evidence.
 
 ### Russian short bio
 
