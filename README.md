@@ -8,7 +8,7 @@
 
 I help Web3, DeFi, FinTech, and AI-agent teams turn one high-risk transition into **bounded adversarial tests, reproducible evidence, and regression coverage before production**.
 
-I bring **7+ years of QA and FinTech reliability experience** across banking, brokerage, REST APIs, WebSockets, SQL, integrations, payment reconciliation, risk, regression strategy, and failure analysis.
+I bring **6 years 10 months of commercial manual QA in FinTech**, plus earlier SQL-engineering work in banking (2014–2018). My work spans banking, brokerage, REST APIs, WebSockets, SQL, integrations, payment reconciliation, risk, regression strategy, and failure analysis.
 
 **Latest public interoperability:** [T-Trace/OpenPoC](https://github.com/safal207/T-Trace) independently matched **18/18 Governex `-01` checks**; Governex now links the independent reports, and the draft author confirmed named RFC 7942 Implementation Status credit in the forthcoming revision.
 
@@ -344,7 +344,7 @@ My current thesis is simple:
 
 Если подписка на ИИ уже есть, а уверенности в результате пока нет, можно начать с одной небольшой задачи. Вместе уточним цель, подготовим контекст и определим, как проверить решение. На занятиях можно задавать базовые вопросы и разбираться в своём темпе.
 
-**[Менторство с Алексеем Сафоновым на Solvery](https://solvery.io/ru/mentor/alexhello)** — форматы занятий, проекты, отзывы и заявка на бесплатное 15-минутное знакомство.
+**[Менторство с Алексеем Сафоновым на Solvery](https://solvery.io/ru/mentor/5295)** — форматы занятий, проекты, отзывы и заявка на бесплатное 15-минутное знакомство.
 <!-- solvery-mentoring:end -->
 
 ---
