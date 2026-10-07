@@ -17,7 +17,7 @@ I bring **6 years 10 months of commercial manual QA in FinTech**, plus earlier S
 <!-- recent-external-delivery:start -->
 ## Recent external Soroban & reliability delivery
 
-**Public scoreboard: 4 merged upstream PRs — including 3 Soroban/Rust contract contributions — plus 1 Soroban/Rust contract PR in maintainer review.**
+**Public scoreboard: 4 merged upstream PRs — including 3 Soroban/Rust contract contributions — plus 1 draft Soroban/Rust contract PR awaiting an acceptance-scope decision.**
 
 Applications are pipeline, not proof. This table counts only GitHub-verifiable delivery states.
 
@@ -27,7 +27,9 @@ Applications are pipeline, not proof. This table counts only GitHub-verifiable d
 | **Merged** | CommitLabs contract — deterministic stateful lifecycle model and invariant/failure-atomicity coverage | [PR #556](https://github.com/Commitlabs-Org/Commitlabs-Contracts/pull/556) |
 | **Merged** | Stellar Kraal contract — prevent same-ledger loan-ID collisions without changing the public ABI | [PR #162](https://github.com/Stellar-kraal/stellar-kraal-contract/pull/162) |
 | **Merged** | TrustLayer backend — idempotent signal ingestion with replay, conflict, concurrency, and retention coverage | [PR #12](https://github.com/TrustLayer-Org/TrustLayer-Backend/pull/12) |
-| **Maintainer review — Draft** | Stellar Game Studio contract — commit-reveal dice flow, exact settlement/refund behavior, and 93-test workspace verification | [PR #14](https://github.com/Bitcoindefi/Stellar-Game-Studio/pull/14) |
+| **Draft — awaiting scope decision** | Stellar Game Studio contract proposal — commit-reveal dice flow and stateful mock settlement/refund accounting; 93-test workspace verification at `88c6a06` on 28 August 2026 | [PR #14](https://github.com/Bitcoindefi/Stellar-Game-Studio/pull/14) |
+
+**Stellar Game Studio status, checked 7 October 2026:** the [maintainer's build and 93-test verification](https://github.com/Bitcoindefi/Stellar-Game-Studio/pull/14#issuecomment-5455231402) cover PR head `88c6a069dbe2088d7c83fb319ffebf12a3a9c1ce`. The [contract-only acceptance-scope request](https://github.com/Bitcoindefi/Stellar-Game-Studio/pull/14#issuecomment-5648228664) remains unanswered in the PR discussion. Against [upstream `c2174f3`](https://github.com/Bitcoindefi/Stellar-Game-Studio/commit/c2174f37979362d7788fab7d231138c723f25682), all four deployment/client gates remain unclosed: production Hub cancellation/refund compatibility, safe Hub reuse, new Dice deployment or proof that legacy sessions are drained, and Studio ABI/commit-reveal integration. Additional implementation is paused pending that scope decision; the earlier tests validate mock accounting, not production refund economics or deployment readiness.
 
 **Current focus:** Soroban/Rust authorization boundaries, lifecycle and value-conservation invariants, failed-transition atomicity, and adversarial regression/property testing.
 
