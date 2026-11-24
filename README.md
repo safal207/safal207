@@ -39,6 +39,8 @@ Related work remains accessible in the extended technical portfolio below, inclu
 
 ### Join the community — one useful contribution at a time
 
+**[Choose your first contribution → Community Growth](COMMUNITY_GROWTH.md)** — five project entry points, existing newcomer issues, reproduction report template, and community outcome counting rules.
+
 - **Developers and QA engineers:** follow a project's README, run one reproducible example, and share the exact version, environment, expected result, and observed result. A focused issue or regression PR is welcome.
 - **Researchers and standards contributors:** reproduce an experiment independently, compare competing explanations or implementations, and publish positive or negative results with explicit limitations.
 - **Learners and educators:** complete one exercise, identify a confusing explanation or failing example, and suggest a correction or accessible translation.
