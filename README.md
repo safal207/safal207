@@ -22,6 +22,50 @@ I bring **6 years 10 months of commercial manual QA in FinTech**, plus earlier S
 
 **2-minute evidence index:** [Evidence of Engineering Impact](EVIDENCE_OF_ENGINEERING_IMPACT.md) — independent reproduction, applied technical corrections, accepted reliability boundaries, and merged external contributions.
 
+<!-- open-source-impact:start -->
+## Open Source Impact — five flagship directions
+
+**From research and engineering to measurable public value.** Choose a project by the problem you want to solve, not by the number of repositories.
+
+| Flagship / entry point | Public benefit | How to participate |
+|---|---|---|
+| [ContractGraph-QA](https://github.com/safal207/ContractGraph-QA) — financial reliability | Help reduce duplicate, lost, or incorrectly settled value through bounded tests and reproducible evidence. | Reproduce a recovery or state-machine fixture; submit a minimal counterexample or regression test. |
+| [Causal Memory Layer](https://github.com/safal207/Causal-Memory-Layer) — trustworthy AI infrastructure | Make the causal ancestry of agent actions and human approvals inspectable. | Run the documented example; test missing, stale, or inconsistent authority lineage. |
+| [T-Trace / OpenPoC](https://github.com/safal207/T-Trace) — open protocols and interoperability | Make action receipts and trace claims independently checkable while keeping assurance limits explicit. | Reproduce a pinned vector; contribute a compatibility result, negative fixture, or specification review. |
+| [BardoCompute](https://github.com/safal207/BardoCompute) — experimental computing research | Share testable hypotheses about transition-state execution, verification, and recovery. | Reproduce a pinned experiment, compare it with a stated baseline, or report a negative result. Research reference, not a production processor or a proven speed advantage. |
+| [AI PATH](https://safal207.github.io/test-it-python/ai-path/) — accessible technology education | Lower the barrier to learning programming, QA, and responsible AI use. | Try the [Python trainer](https://safal207.github.io/test-it-python/), contribute lesson feedback in the [source repository](https://github.com/safal207/test-it-python), or explore the [FinTech QA sandbox](https://github.com/safal207/qa-fintech-api-python-course). |
+
+Related work remains accessible in the extended technical portfolio below, including ProofPath, AgentProof, Causal Cell, RESONANCE, and independent QA research. The five directions are a navigation map, not a claim that all projects are integrated.
+
+### Join the community — one useful contribution at a time
+
+- **Developers and QA engineers:** follow a project's README, run one reproducible example, and share the exact version, environment, expected result, and observed result. A focused issue or regression PR is welcome.
+- **Researchers and standards contributors:** reproduce an experiment independently, compare competing explanations or implementations, and publish positive or negative results with explicit limitations.
+- **Learners and educators:** complete one exercise, identify a confusing explanation or failing example, and suggest a correction or accessible translation.
+- **Organizations and maintainers:** propose one concrete reliability or interoperability problem using a public or synthetic example; distinguish a proposed collaboration from actual adoption.
+
+Use the relevant repository's contribution instructions and issue tracker where enabled; otherwise [contact me](mailto:safal0645@gmail.com?subject=Open%20Source%20Impact%20contribution). Keep credentials, customer data, confidential artifacts, and personal information out of public reports. Test only within authorized environments; use the project's security-reporting route or private contact for sensitive findings. Check each repository's license before redistribution.
+
+### Public impact scoreboard — baseline, 25 November 2026
+
+Measure externally checkable outcomes, not repository volume. This is a selected, evidence-linked baseline, not a complete lifetime contribution count.
+
+| Indicator | Baseline | What counts / evidence |
+|---|---|---|
+| Accepted external contributions | **At least 5 merged PRs** | [StreamPay #161](https://github.com/Streampay-Org/StreamPay-Contracts/pull/161), [CommitLabs #556](https://github.com/Commitlabs-Org/Commitlabs-Contracts/pull/556), [Stellar Kraal #162](https://github.com/Stellar-kraal/stellar-kraal-contract/pull/162), [TrustLayer #12](https://github.com/TrustLayer-Org/TrustLayer-Backend/pull/12), [TRACE #215](https://github.com/agentrust-io/trace-spec/pull/215). Four code/test contributions and one documentation contribution; not five production deployments. |
+| Applied external technical corrections | **6 corrections in one documented review** | [x402 review author's confirmation](https://github.com/x402-foundation/x402/issues/3379#issuecomment-5731942887). Count applied corrections, not comments posted. |
+| Accepted external design feedback | **1 documented example** | [LangGraph experiment author's acceptance](https://github.com/langchain-ai/langgraph/issues/7417#issuecomment-5701980916). Accepted for a future iteration; not a merged framework change. |
+| Reproducible interoperability evidence | **18/18 pinned checks matched** | [T-Trace / Governex report](https://github.com/safal207/T-Trace/blob/main/docs/governex-action-receipts-v01-compatibility.md) and [external reference](https://github.com/governex/agent-action-receipts-vectors). Exact corpus only; not general conformance or adoption. |
+| External reproduction and comparison | **1 documented 18-trial comparison** | [CrewAI discussion](https://github.com/crewAIInc/crewAI/issues/5802#issuecomment-5764332870). Bounded same-host fixture, not a distributed guarantee. |
+| Available learning material | **40 Python lessons, 13 executable exercises, 6 projects** | [Trainer README](https://github.com/safal207/test-it-python). Content inventory, not learner outcomes. |
+| Independent users, active contributors, external deployments, learner completions | **Not measured** | Count unique consenting participants or publicly attributable evidence; do not infer usage from stars, forks, downloads, visits, or test counts. |
+
+**Measurement practice:** review monthly as a proposed cadence, record dated links and exact revisions, deduplicate contributions and reproductions, and report limitations and corrections. Track reach (stars, forks, downloads) separately from verified adoption, accepted changes, and learning outcomes. Unknown is not zero. No financial savings, learner gains, or production safety claims without supporting evidence.
+
+[Inspect the engineering impact record](EVIDENCE_OF_ENGINEERING_IMPACT.md) · [Explore the research journal](https://safal207.github.io/RESONANCE/)
+
+<!-- open-source-impact:end -->
+
 <!-- recent-external-delivery:start -->
 ## Recent external Soroban & reliability delivery
 
@@ -275,7 +319,7 @@ A repository or contract link, chain and tooling, the highest-risk transition, c
 - **Want the readable research and market-dialogue layer?** Open [RESONANCE](https://safal207.github.io/RESONANCE/).
 
 <details>
-<summary><strong>Flagship projects and research directions</strong></summary>
+<summary><strong>Extended technical portfolio and research directions</strong></summary>
 
 ### [ContractGraph-QA](https://github.com/safal207/ContractGraph-QA)
 
