@@ -4,6 +4,14 @@
 
 **Independent smart-contract testing, AI-agent verification, agentic-payment security, and FinTech reliability engineering.**
 
+## My mission
+
+**Make intelligent and financial systems worthy of human trust — through verifiable actions, open research, and accessible education.**
+
+I build open tools, reproducible experiments, and practical learning resources that help people verify what systems actually do, understand why actions were authorized, recover safely from failure, and retain meaningful human control. My goal is to turn engineering knowledge into lasting public value: safer technology, shared evidence, and opportunities for others to learn, reproduce, and improve the work.
+
+Success is not the number of repositories I create, but the number of people and teams who can use, verify, and build upon what I share.
+
 > When a payout, escrow release, settlement, or agent action times out, retries, races, or recovers from stale state — can you prove whether **zero, one, or an unknown number of economic effects** occurred, and block retry when the answer is unknown?
 
 I help Web3, DeFi, FinTech, and AI-agent teams turn one high-risk transition into **bounded adversarial tests, reproducible evidence, and regression coverage before production**.
