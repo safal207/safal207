@@ -1,5 +1,7 @@
 # Aleksei Safonov | AI Developer · Product Builder · QA Engineer
 
+<p align="center"><img src="assets/profile-banner.svg" alt="Aleksei Safonov — AI Developer, Product Builder, QA Engineer" width="100%"/></p>
+
 **AI-assisted web development • AI agents & automation • FinTech & Web3 reliability**
 
 I turn business needs into working digital products — from requirements and user journeys to AI-assisted implementation, testing, and release. My commercial QA background helps me validate generated code and investigate failures rather than rely on plausible output.
@@ -25,7 +27,13 @@ I turn business needs into working digital products — from requirements and us
 
 **Tools and technologies:** ChatGPT, Codex, MCP, Git/GitHub, JavaScript/TypeScript, Python, HTML/CSS, REST API, SQL, Playwright, GitHub Actions, Supabase.
 
+### Product preview — Miora Coffee
+
+<a href="https://safal207.github.io/miora-coffee/?view=feed"><img src="https://raw.githubusercontent.com/safal207/miora-coffee/main/docs/feed-mobile-preview.jpg" alt="Miora Coffee mobile menu project preview" width="320"/></a>
+
 ### BitOS — my product development approach
+
+<p align="center"><img src="assets/bitos-flow.gif" alt="BitOS workflow: need, hypothesis, AI build, QA, release" width="600"/></p>
 
 ```text
 Business & user needs → hypothesis → user journey → AI-assisted implementation
