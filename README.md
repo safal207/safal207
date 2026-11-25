@@ -1,4 +1,52 @@
-# Aleksei Safonov — Smart Contract QA & AI Agent Verification
+# Aleksei Safonov | AI Developer · Product Builder · QA Engineer
+
+**AI-assisted web development • AI agents & automation • FinTech & Web3 reliability**
+
+I turn business needs into working digital products — from requirements and user journeys to AI-assisted implementation, testing, and release. My commercial QA background helps me validate generated code and investigate failures rather than rely on plausible output.
+
+[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-24292f?logo=github)](https://github.com/safal207) [![Telegram](https://img.shields.io/badge/Telegram-Contact-229ED9?logo=telegram&logoColor=white)](https://t.me/Alexfox14) [![Email](https://img.shields.io/badge/Email-Contact-555555)](mailto:safal0645@gmail.com)
+
+**Open to remote AI Developer / AI-assisted development, product automation, and QA opportunities.**
+
+**Explore by interest:** [Live product demos](#ai-assisted-product-portfolio) · [AI agent verification & financial QA](#what-i-verify) · [Open-source evidence](#selected-proof) · [Contact](#contact)
+
+<!-- ai-product-portfolio:start -->
+## AI-assisted product portfolio
+
+| Project | What it demonstrates | Explore |
+|---|---|---|
+| **Roby's Coffee House** | Multilingual digital storefront, Smart Choice recommendations, cart, product journeys and QA gates. | [Live demo](https://safal207.github.io/robys-coffee-house-demo/) · [Source](https://github.com/safal207/robys-coffee-house-demo) |
+| **Zenit Alanya** | Independent football academy website concept: multilingual UX, player account, Supabase and interactive learning/game features. | [Live demo](https://safal207.github.io/zenit-alanya-site/) · [Source](https://github.com/safal207/zenit-alanya-site) |
+| **Miora Coffee** | Mobile-first, three-language digital menu concept with 93 catalog items, search, favorites, local cart and monetary integrity checks. | [Live demo](https://safal207.github.io/miora-coffee/?view=feed) · [Source](https://github.com/safal207/miora-coffee) |
+| **Telegram for Codex** | Local Python/MCP integration for Telegram search, message context and reply drafting with explicit approval boundaries. Developer alpha. | [Source & setup](https://github.com/safal207/telegram-for-codex) |
+| **AI PATH** | Accessible programming and QA learning resources with interactive exercises. | [Live demo](https://safal207.github.io/test-it-python/ai-path/) · [Source](https://github.com/safal207/test-it-python) |
+
+**My role:** product concept, requirements, user journeys, directing AI-assisted implementation, reviewing code and behavior, investigating defects, and preparing releases. AI agents assist with implementation; I take responsibility for the decisions and verification within the agreed scope.
+
+**Tools and technologies:** ChatGPT, Codex, MCP, Git/GitHub, JavaScript/TypeScript, Python, HTML/CSS, REST API, SQL, Playwright, GitHub Actions, Supabase.
+
+### BitOS — my product development approach
+
+```text
+Business & user needs → hypothesis → user journey → AI-assisted implementation
+                     → QA & evidence → release → measure → iterate
+```
+
+I use this approach to explore digital storefronts, interactive funnels, and automation. Product concepts and demos are not claims of client adoption or proven revenue uplift; those outcomes require separate measurement.
+
+<details>
+<summary><strong>Обо мне — для русскоязычных команд</strong></summary>
+
+AI-разработчик и QA-инженер с коммерческим опытом в FinTech. Создаю веб-продукты и интеграции с помощью AI-инструментов: исследую потребности, формулирую требования, проектирую пользовательские сценарии, управляю AI-assisted разработкой, проверяю бизнес-логику и качество результата. Развиваю методологию BitOS на стыке разработки, продуктового мышления, маркетинга и QA.
+
+Открыт к удалённому сотрудничеству: AI Developer, Vibe Coder, автоматизация и QA. [Telegram](https://t.me/Alexfox14) · [Email](mailto:safal0645@gmail.com).
+
+</details>
+<!-- ai-product-portfolio:end -->
+
+---
+
+## Smart Contract QA & AI Agent Verification
 
 ## I pressure-test the moment software moves money or claims a real-world result.
 
