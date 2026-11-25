@@ -18,8 +18,8 @@ I turn business needs into working digital products — from requirements and us
 | Project | What it demonstrates | Explore |
 |---|---|---|
 | **Roby's Coffee House** | Multilingual digital storefront, Smart Choice recommendations, cart, product journeys and QA gates. | [Live demo](https://safal207.github.io/robys-coffee-house-demo/) · [Source](https://github.com/safal207/robys-coffee-house-demo) |
+| **Atelier 23 × BitOS** | Independent premium-fashion concept: interactive video-led journey, personal styling and occasion-based planning. | [Live demo](https://safal207.github.io/merdo-bitos/atelier23/fashion-overlay/) · [Source](https://github.com/safal207/merdo-bitos/tree/main/atelier23/fashion-overlay) |
 | **Zenit Alanya** | Independent football academy website concept: multilingual UX, player account, Supabase and interactive learning/game features. | [Live demo](https://safal207.github.io/zenit-alanya-site/) · [Source](https://github.com/safal207/zenit-alanya-site) |
-| **Miora Coffee** | Mobile-first, three-language digital menu concept with 93 catalog items, search, favorites, local cart and monetary integrity checks. | [Live demo](https://safal207.github.io/miora-coffee/?view=feed) · [Source](https://github.com/safal207/miora-coffee) |
 | **Telegram for Codex** | Local Python/MCP integration for Telegram search, message context and reply drafting with explicit approval boundaries. Developer alpha. | [Source & setup](https://github.com/safal207/telegram-for-codex) |
 | **AI PATH** | Accessible programming and QA learning resources with interactive exercises. | [Live demo](https://safal207.github.io/test-it-python/ai-path/) · [Source](https://github.com/safal207/test-it-python) |
 
@@ -27,9 +27,29 @@ I turn business needs into working digital products — from requirements and us
 
 **Tools and technologies:** ChatGPT, Codex, MCP, Git/GitHub, JavaScript/TypeScript, Python, HTML/CSS, REST API, SQL, Playwright, GitHub Actions, Supabase.
 
-### Product preview — Miora Coffee
+### Featured product cases — from user need to working experience
 
-<a href="https://safal207.github.io/miora-coffee/?view=feed"><img src="https://raw.githubusercontent.com/safal207/miora-coffee/main/docs/feed-mobile-preview.jpg" alt="Miora Coffee mobile menu project preview" width="320"/></a>
+#### Roby's Coffee House — HoReCa / digital storefront
+
+<a href="https://safal207.github.io/robys-coffee-house-demo/"><img src="https://raw.githubusercontent.com/safal207/robys-coffee-house-demo/main/src/robys-hero-poster.jpg" alt="Roby's Coffee House project hero artwork" width="640"/></a>
+
+**Problem:** a static menu lists products but does not necessarily help a visitor decide what to order.
+
+**Solution:** a mobile-first, multilingual storefront with Smart Choice recommendations, product pairings, cart and user journeys. The project includes TypeScript, browser regression checks and CI quality gates.
+
+**Result:** a publicly accessible product demo and an inspectable implementation. Real conversion and revenue impact have not been established.
+
+[Explore Roby's live demo](https://safal207.github.io/robys-coffee-house-demo/) · [Source & QA](https://github.com/safal207/robys-coffee-house-demo)
+
+#### Atelier 23 × BitOS — Fashion / personalized customer journey
+
+**Problem:** a premium tailoring customer may begin with an occasion or a desired look rather than a specific garment.
+
+**Solution:** an independent mobile fashion concept with a video-led interactive journey, occasion-based choices, personal styling and preparation planning.
+
+**Result:** an interactive prototype for exploring personalization and customer engagement. It is not an official Atelier 23 service, a confirmed client deployment or evidence of increased sales.
+
+[Explore Atelier 23 interactive fashion](https://safal207.github.io/merdo-bitos/atelier23/fashion-overlay/) · [Source](https://github.com/safal207/merdo-bitos/tree/main/atelier23/fashion-overlay)
 
 ### BitOS — my product development approach
 
