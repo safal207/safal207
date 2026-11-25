@@ -31,6 +31,8 @@ I turn business needs into working digital products — from requirements and us
 
 #### Roby's Coffee House — HoReCa / digital storefront
 
+<a href="https://safal207.github.io/robys-coffee-house-demo/"><img src="assets/robys-case.gif" alt="Animated case illustration: discover, Smart Choice, pair, cart" width="720"/></a>
+
 <a href="https://safal207.github.io/robys-coffee-house-demo/"><img src="https://raw.githubusercontent.com/safal207/robys-coffee-house-demo/main/src/robys-hero-poster.jpg" alt="Roby's Coffee House project hero artwork" width="640"/></a>
 
 **Problem:** a static menu lists products but does not necessarily help a visitor decide what to order.
@@ -42,6 +44,8 @@ I turn business needs into working digital products — from requirements and us
 [Explore Roby's live demo](https://safal207.github.io/robys-coffee-house-demo/) · [Source & QA](https://github.com/safal207/robys-coffee-house-demo)
 
 #### Atelier 23 × BitOS — Fashion / personalized customer journey
+
+<a href="https://safal207.github.io/merdo-bitos/atelier23/fashion-overlay/"><img src="assets/atelier23-case.gif" alt="Animated case illustration: watch, occasion, style, plan" width="720"/></a>
 
 **Problem:** a premium tailoring customer may begin with an occasion or a desired look rather than a specific garment.
 
