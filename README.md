@@ -76,6 +76,29 @@ AI-разработчик и QA-инженер с коммерческим оп�
 
 ---
 
+<!-- engineering-motion:start -->
+## Engineering & research — animated architecture gallery
+
+Six compact animated concept diagrams: follow the data, state, authorization and evidence paths. These are explanatory illustrations, not recorded execution, physical-chip footage or measured benchmarks. See each repository for exact implementation status and reproducible evidence.
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/safal207/BardoCompute"><img src="assets/bardo-tx1-motion.gif" alt="BARDO-TX1: 9-BIT LANE to VALIDATE to RADIX-6 to POLICY" width="640"/></a><br/><strong><a href="https://github.com/safal207/BardoCompute">BardoCompute / BARDO-TX1</a></strong><br/>Experimental streaming transition-state coprocessor: validate six-state codes, map to radix-6, derive features and apply a reference policy. RTL/FPGA research, not a production CPU.</td>
+<td width="50%" valign="top"><a href="https://github.com/safal207/ContractGraph-QA"><img src="assets/contractgraph-motion.gif" alt="CONTRACTGRAPH-QA: INTENT to EXECUTE to EVIDENCE to VERDICT" width="640"/></a><br/><strong><a href="https://github.com/safal207/ContractGraph-QA">ContractGraph-QA</a></strong><br/>Model financial state transitions, test ambiguous outcomes and generate evidence for a bounded recovery decision.</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/safal207/T-Trace"><img src="assets/t-trace-motion.gif" alt="T-TRACE / OPENPOC: ACTION to RECEIPT to VALIDATE to REPLAY" width="640"/></a><br/><strong><a href="https://github.com/safal207/T-Trace">T-Trace / OpenPoC</a></strong><br/>Validate presented traces, action receipts and deterministic replay; keep the limits of captured evidence explicit.</td>
+<td width="50%" valign="top"><a href="https://github.com/safal207/Causal-Memory-Layer"><img src="assets/causal-memory-motion.gif" alt="CAUSAL MEMORY: TASK to DELEGATE to APPROVAL to ACTION" width="640"/></a><br/><strong><a href="https://github.com/safal207/Causal-Memory-Layer">Causal Memory Layer</a></strong><br/>Inspect task, delegation and approval ancestry; detect missing parents and broken causal links.</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/safal207/ProofPath"><img src="assets/proofpath-motion.gif" alt="PROOFPATH: PROPOSAL to AUTHORITY to POLICY to DECISION" width="640"/></a><br/><strong><a href="https://github.com/safal207/ProofPath">ProofPath</a></strong><br/>Check intent, authority, policy and replay state before an action reaches a high-risk tool; issue accept, hold or block decisions.</td>
+<td width="50%" valign="top"><a href="https://github.com/safal207/LiminalQAengineer"><img src="assets/liminalqa-motion.gif" alt="LIMINALQA: TEST LOG to BASELINE to TRIAGE to DECISION" width="640"/></a><br/><strong><a href="https://github.com/safal207/LiminalQAengineer">LiminalQA</a></strong><br/>Analyze test history, flake risk and likely root cause to support reviewable CI triage decisions.</td>
+</tr>
+</table>
+<!-- engineering-motion:end -->
+
+---
+
 ## Smart Contract QA & AI Agent Verification
 
 ## I pressure-test the moment software moves money or claims a real-world result.
