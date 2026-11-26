@@ -93,16 +93,6 @@ Useful action → XP and coins → progression and fox evolution. Optional focus
 </tr>
 </table>
 
-#### Awakening / Пробуждение — voxel PixelArt game engine
-
-<a href="https://github.com/safal207/Awakening"><img src="https://raw.githubusercontent.com/safal207/test-it-python/main/dist/ai-path/assets/awakening.webp" alt="Actual Awakening desktop game screenshot recorded under Xvfb/Mesa OpenGL on 17 October 2026" width="420"/></a>
-
-C# / .NET and OpenGL 3.3 desktop engine: procedural voxel worlds, 8×8 pixel-art block faces, chunk rendering, block placement/destruction, day/night cycle, FreeCity NPCs, hero progression and save/load. Built-in profiling and functional tests.
-
-**Actual game screenshot, not an AI mockup.** Captured from revision `a92bd1560215833a232362ad78de88335e51ac81` on 17 October 2026.
-
-[Source and build instructions](https://github.com/safal207/Awakening) · [Screenshot provenance](https://github.com/safal207/test-it-python/blob/main/dist/ai-path/assets/sources.json)
-
 <!-- hospitality-games:end -->
 
 ### BitOS — my product development approach
