@@ -53,6 +53,58 @@ I turn business needs into working digital products — from requirements and us
 
 [Explore Atelier 23 interactive fashion](https://safal207.github.io/merdo-bitos/atelier23/fashion-overlay/) · [Source](https://github.com/safal207/merdo-bitos/tree/main/atelier23/fashion-overlay)
 
+<!-- hospitality-games:start -->
+### Restaurant & hospitality — BiteOS and digital storefronts
+
+**[BiteOS — restaurant ordering platform](https://github.com/safal207/biteos)**
+
+<a href="https://safal207.github.io/biteos/"><img src="https://raw.githubusercontent.com/safal207/biteos/main/apps/kiosk/public/images/biteos-social-preview.jpg" alt="BiteOS project preview: kiosk, meal combos and add-on suggestions" width="360"/></a>
+
+A working prototype for touchscreen kiosks and browser delivery journeys: meal building, combos, transparent add-on pricing, preparation and delivery simulation. React/TypeScript frontend, Go pricing and demo-order API, Rust recommendation rules. The hosted browser demo does not process real payments or dispatch orders.
+
+[Browser demo](https://safal207.github.io/biteos/) · [Kiosk demo](https://safal207.github.io/biteos/#kiosk) · [Source and QA](https://github.com/safal207/biteos)
+
+| Restaurant concept | Product capability | Explore |
+|---|---|---|
+| **Riva Bella — Revenue Lab** | Three-language menu, optional pairings, cart and illustrative contribution simulator; eight fictional demo products, not the official menu. | [Demo](https://safal207.github.io/riva-bella-revenue/) · [Source](https://github.com/safal207/riva-bella-revenue) |
+| **Sefa Beach** | QR-menu prototype with 123 items, three languages, search, favorites, waiter-list cart and local revenue-analysis templates. Menu and prices require owner confirmation. | [Pages address — availability unverified](https://safal207.github.io/sefa-beach/) · [Source](https://github.com/safal207/sefa-beach) |
+| **Halk Büfe Selinus** | Four-language menu, light/dark themes, cart, counter QR summary and local owner margin workbench. Generated food illustrations. | [Demo](https://safal207.github.io/halk-bufe-selinus/) · [Source](https://github.com/safal207/halk-bufe-selinus) |
+| **Poçitel Coffee & Brunch** | Independent café and brunch storefront concept with menu discovery, breakfast, focaccia, coffee and pairing journeys. | [Demo](https://safal207.github.io/pocitel-coffee-gazipasa/) · [Source](https://github.com/safal207/pocitel-coffee-gazipasa) |
+
+These independent prototypes illustrate restaurant customer journeys and product hypotheses. They do not imply official partnerships, real order processing, owner approval or verified commercial uplift. Live Pages availability has not been independently confirmed in this portfolio update.
+
+### Games & productivity — from task completion to interactive worlds
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://safal207.github.io/todo-list/"><img src="assets/sdelano-motion.gif" alt="Done 1.0 task-completion concept animation" width="320"/></a><br/>
+<strong>Сделано 1.0 / Done — stable task app</strong><br/>
+Add a task → complete it → receive feedback → unlock milestones 1, 3, 5 and 10. First-win onboarding, elapsed-time timer, optional sound and haptics, progress sharing and local persistence.<br/>
+<a href="https://safal207.github.io/todo-list/">Published demo</a> · <a href="https://github.com/safal207/todo-list">Source</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/safal207/sdelano-2"><img src="https://raw.githubusercontent.com/safal207/sdelano-2/7ed591f77cc80bc7ed1382c1312bb5f7eebb2a81/assets/fox-mascot.webp" alt="Fox mascot asset from the Done 2.0 experimental branch, not an interface screenshot" width="144"/></a><br/>
+<strong>Сделано 2.0 / Done — experimental game engine</strong><br/>
+Useful action → XP and coins → progression and fox evolution. Optional focus, cosmetic rewards and read-only reward-ledger consistency research. The character reflects real progress; it does not demand attention.<br/>
+<a href="https://github.com/safal207/sdelano-2">Research repository</a> · <a href="https://github.com/safal207/sdelano-2/pull/2">Draft Shadow Mode</a><br/>
+<strong>Unreleased prototype; not a production app.</strong>
+</td>
+</tr>
+</table>
+
+#### Awakening / Пробуждение — voxel PixelArt game engine
+
+<a href="https://github.com/safal207/Awakening"><img src="https://raw.githubusercontent.com/safal207/test-it-python/main/dist/ai-path/assets/awakening.webp" alt="Actual Awakening desktop game screenshot recorded under Xvfb/Mesa OpenGL on 17 October 2026" width="420"/></a>
+
+C# / .NET and OpenGL 3.3 desktop engine: procedural voxel worlds, 8×8 pixel-art block faces, chunk rendering, block placement/destruction, day/night cycle, FreeCity NPCs, hero progression and save/load. Built-in profiling and functional tests.
+
+**Actual game screenshot, not an AI mockup.** Captured from revision `a92bd1560215833a232362ad78de88335e51ac81` on 17 October 2026.
+
+[Source and build instructions](https://github.com/safal207/Awakening) · [Screenshot provenance](https://github.com/safal207/test-it-python/blob/main/dist/ai-path/assets/sources.json)
+
+<!-- hospitality-games:end -->
+
 ### BitOS — my product development approach
 
 <p align="center"><img src="assets/bitos-flow.gif" alt="BitOS workflow: need, hypothesis, AI build, QA, release" width="600"/></p>
