@@ -23,6 +23,8 @@ I turn business needs into working digital products — from requirements and us
 | **Telegram for Codex** | Local Python/MCP integration for Telegram search, message context and reply drafting with explicit approval boundaries. Developer alpha. | [Source & setup](https://github.com/safal207/telegram-for-codex) |
 | **AI PATH** | Accessible programming and QA learning resources with interactive exercises. | [Live demo](https://safal207.github.io/test-it-python/ai-path/) · [Source](https://github.com/safal207/test-it-python) |
 
+| **Grok — web project preview** | Additional AI-assisted web project preview; external sandbox link, availability not verified. | [Open preview](https://hds-l14hdws0lvny-6014-kd52k.grok-code-wild.hades-www.grok-sandbox.com/) |
+
 **My role:** product concept, requirements, user journeys, directing AI-assisted implementation, reviewing code and behavior, investigating defects, and preparing releases. AI agents assist with implementation; I take responsibility for the decisions and verification within the agreed scope.
 
 **Tools and technologies:** ChatGPT, Codex, MCP, Git/GitHub, JavaScript/TypeScript, Python, HTML/CSS, REST API, SQL, Playwright, GitHub Actions, Supabase.
