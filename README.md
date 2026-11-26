@@ -19,6 +19,7 @@ I turn business needs into working digital products — from requirements and us
 |---|---|---|
 | **Roby's Coffee House** | Multilingual digital storefront, Smart Choice recommendations, cart, product journeys and QA gates. | [Live demo](https://safal207.github.io/robys-coffee-house-demo/) · [Source](https://github.com/safal207/robys-coffee-house-demo) |
 | **Atelier 23 × BitOS** | Independent premium-fashion concept: interactive video-led journey, personal styling and occasion-based planning. | [Live demo](https://safal207.github.io/merdo-bitos/atelier23/fashion-overlay/) · [Source](https://github.com/safal207/merdo-bitos/tree/main/atelier23/fashion-overlay) |
+| **Atelier 23 — Website & customer journey audit** | Independent evidence-led QA review of Moscow and Lisbon storefronts: search, mobile performance, social metadata, and reproducible test cases. | [Live audit (RU)](https://safal207.github.io/atelier23-audit/preview-7.8/) · [Source & QA](https://github.com/safal207/atelier23-audit) |
 | **Zenit Alanya** | Independent football academy website concept: multilingual UX, player account, Supabase and interactive learning/game features. | [Live demo](https://safal207.github.io/zenit-alanya-site/) · [Source](https://github.com/safal207/zenit-alanya-site) |
 | **Telegram for Codex** | Local Python/MCP integration for Telegram search, message context and reply drafting with explicit approval boundaries. Developer alpha. | [Source & setup](https://github.com/safal207/telegram-for-codex) |
 | **AI PATH** | Accessible programming and QA learning resources with interactive exercises. | [Live demo](https://safal207.github.io/test-it-python/ai-path/) · [Source](https://github.com/safal207/test-it-python) |
@@ -54,6 +55,22 @@ I turn business needs into working digital products — from requirements and us
 **Result:** an interactive prototype for exploring personalization and customer engagement. It is not an official Atelier 23 service, a confirmed client deployment or evidence of increased sales.
 
 [Explore Atelier 23 interactive fashion](https://safal207.github.io/merdo-bitos/atelier23/fashion-overlay/) · [Source](https://github.com/safal207/merdo-bitos/tree/main/atelier23/fashion-overlay)
+
+### Website & customer journey audit — Atelier 23
+
+<a href="https://safal207.github.io/atelier23-audit/preview-7.8/"><img src="https://safal207.github.io/atelier23-audit/preview-7.8/author-main.webp" alt="AI-stylized author portrait from the existing audit" width="180"/></a>
+
+*Independent audit example · 24 November 2026 · Moscow and Lisbon*
+
+I help businesses identify friction between discovery, product search and customer enquiries through evidence-led website audits.
+
+- **Evidence:** six real screenshots, 11 reproducible test cases, 36 laboratory performance measurements and 60 browser checks.
+- **Findings:** a confirmed full-search defect (21 reported results, zero visible product cards), mobile performance risks and social-preview metadata issues.
+- **Deliverables:** an interactive report, reproduction steps, evidence links and a prioritized improvement plan.
+
+This is an independent review of publicly observable website behavior, not an official client engagement or proof of commercial uplift. The full interactive report is currently in Russian. The author image is AI-stylized, not a documentary photograph.
+
+[View interactive audit (RU)](https://safal207.github.io/atelier23-audit/preview-7.8/) · [Source](https://github.com/safal207/atelier23-audit) · [Comparative release QA](https://github.com/safal207/atelier23-audit/actions/runs/45816306674) · [Discuss a website audit](mailto:safal0645@gmail.com?subject=Website%20and%20customer%20journey%20audit)
 
 <!-- hospitality-games:start -->
 ### Restaurant & hospitality — BiteOS and digital storefronts
