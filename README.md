@@ -111,9 +111,11 @@ Real actions → feedback → milestones 1, 3, 5 and 10. Elapsed-time tracking, 
 
 <table>
 <tr>
-<td align="center" valign="top"><a href="https://github.com/safal207/sdelano-2/blob/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v2-fox-ceremony.png"><img src="https://raw.githubusercontent.com/safal207/sdelano-2/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v2-fox-ceremony.png" alt="Done 2.0 — first-win ceremony with XP, coins and fox progression" width="175"/></a><br/><strong>Rewards & XP</strong></td>
-<td align="center" valign="top"><a href="https://github.com/safal207/sdelano-2/blob/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v2-fox-preview.png"><img src="https://raw.githubusercontent.com/safal207/sdelano-2/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v2-fox-preview.png" alt="Done 2.0 — dedicated test-state fox evolution preview" width="175"/></a><br/><strong>Fox evolution (test preview)</strong></td>
-<td align="center" valign="top"><a href="https://github.com/safal207/sdelano-2/blob/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v2-shop.png"><img src="https://raw.githubusercontent.com/safal207/sdelano-2/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v2-shop.png" alt="Done 2.0 — cosmetic shop and reward balance" width="175"/></a><br/><strong>Cosmetic shop</strong></td>
+<td align="center" valign="top" width="50%"><a href="https://github.com/safal207/sdelano-2/blob/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v2-fox-ceremony.png"><img src="https://raw.githubusercontent.com/safal207/sdelano-2/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v2-fox-ceremony.png" alt="Done 2.0 — first-win ceremony with XP, coins and fox progression" width="220"/></a><br/><strong>Rewards & XP</strong></td>
+<td align="center" valign="top" width="50%"><a href="https://github.com/safal207/sdelano-2/blob/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v2-fox-preview.png"><img src="https://raw.githubusercontent.com/safal207/sdelano-2/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v2-fox-preview.png" alt="Done 2.0 — dedicated test-state fox evolution preview" width="220"/></a><br/><strong>Fox evolution (test preview)</strong></td>
+</tr>
+<tr>
+<td align="center" valign="top" colspan="2"><a href="https://github.com/safal207/sdelano-2/blob/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v2-shop.png"><img src="https://raw.githubusercontent.com/safal207/sdelano-2/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v2-shop.png" alt="Done 2.0 — cosmetic shop and reward balance" width="220"/></a><br/><strong>Cosmetic shop</strong></td>
 </tr>
 </table>
 
