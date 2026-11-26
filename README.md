@@ -79,7 +79,7 @@ AI-разработчик и QA-инженер с коммерческим оп�
 <!-- engineering-motion:start -->
 ## Engineering & research — animated architecture gallery
 
-Six compact animated concept diagrams: follow the data, state, authorization and evidence paths. These are explanatory illustrations, not recorded execution, physical-chip footage or measured benchmarks. See each repository for exact implementation status and reproducible evidence.
+Twelve compact animated concept diagrams: follow the data, state, authorization and evidence paths. These are explanatory illustrations, not recorded execution, physical-chip footage or measured benchmarks. See each repository for exact implementation status and reproducible evidence.
 
 <table>
 <tr>
@@ -93,6 +93,18 @@ Six compact animated concept diagrams: follow the data, state, authorization and
 <tr>
 <td width="50%" valign="top"><a href="https://github.com/safal207/ProofPath"><img src="assets/proofpath-motion.gif" alt="PROOFPATH: PROPOSAL to AUTHORITY to POLICY to DECISION" width="640"/></a><br/><strong><a href="https://github.com/safal207/ProofPath">ProofPath</a></strong><br/>Check intent, authority, policy and replay state before an action reaches a high-risk tool; issue accept, hold or block decisions.</td>
 <td width="50%" valign="top"><a href="https://github.com/safal207/LiminalQAengineer"><img src="assets/liminalqa-motion.gif" alt="LIMINALQA: TEST LOG to BASELINE to TRIAGE to DECISION" width="640"/></a><br/><strong><a href="https://github.com/safal207/LiminalQAengineer">LiminalQA</a></strong><br/>Analyze test history, flake risk and likely root cause to support reviewable CI triage decisions.</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/safal207/COSMIC-ORGANICS"><img src="assets/morphos-motion.gif" alt="MORPHOS / COSMIC: STATE to FRONTIER to EXECUTE to EVIDENCE" width="640"/></a><br/><strong><a href="https://github.com/safal207/COSMIC-ORGANICS">COSMIC-ORGANICS / MORPHOS</a></strong><br/>Sparse transition-state execution with an active frontier and separately checkable evidence. Software and RTL/FPGA research; no general CPU advantage is established.</td>
+<td width="50%" valign="top"><a href="https://github.com/safal207/ATMAN-LATTICE"><img src="assets/atman-motion.gif" alt="ATMAN-LATTICE: PROPOSE to ASSESS to REVIEW to APPLY" width="640"/></a><br/><strong><a href="https://github.com/safal207/ATMAN-LATTICE">ATMAN-LATTICE</a></strong><br/>Research runtime separating proposal, assessment, review and application. Forward rollback creates a new state without erasing history.</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/safal207/CaPU"><img src="assets/capu-motion.gif" alt="CAPU: ADMIT to EXECUTE to OBSERVE to RECOVER" width="640"/></a><br/><strong><a href="https://github.com/safal207/CaPU">CaPU</a></strong><br/>Bounded execution-admission and recovery references separating authorization from external-effect evidence. Unknown outcomes remain blocked.</td>
+<td width="50%" valign="top"><a href="https://github.com/safal207/telegram-for-codex"><img src="assets/telegram-codex-motion.gif" alt="TELEGRAM FOR CODEX: SEARCH to CONTEXT to DRAFT to REVIEW" width="640"/></a><br/><strong><a href="https://github.com/safal207/telegram-for-codex">Telegram for Codex</a></strong><br/>Developer-alpha local inbox: search Telegram history, retrieve context and draft replies. Sending requires explicit approval.</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/safal207/todo-list"><img src="assets/sdelano-motion.gif" alt="SDELANO / DONE: ADD TASK to DO TASK to COMPLETE to PROGRESS" width="640"/></a><br/><strong><a href="https://github.com/safal207/todo-list">Сделано / Done</a></strong><br/>Mobile task app with achievement milestones, progress sharing and local storage. The diagram illustrates the published version's task-completion loop.</td>
+<td width="50%" valign="top"><a href="https://github.com/safal207/RESONANCE"><img src="assets/resonance-motion.gif" alt="RESONANCE: SIGNAL to EVIDENCE to VERIFY to PUBLISH" width="640"/></a><br/><strong><a href="https://github.com/safal207/RESONANCE">RESONANCE</a></strong><br/>Research publication linking analysis of AI safety, payments and technology to source evidence, experiments and reproducible tests.</td>
 </tr>
 </table>
 <!-- engineering-motion:end -->
