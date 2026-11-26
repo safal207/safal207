@@ -73,25 +73,38 @@ A working prototype for touchscreen kiosks and browser delivery journeys: meal b
 
 These independent prototypes illustrate restaurant customer journeys and product hypotheses. They do not imply official partnerships, real order processing, owner approval or verified commercial uplift. Live Pages availability has not been independently confirmed in this portfolio update.
 
-### Games & productivity — from task completion to interactive worlds
+### Games & productivity — real gameplay mechanics
+
+**Сделано 1.0 / Done — stable task app**
 
 <table>
 <tr>
-<td width="50%" valign="top">
-<a href="https://safal207.github.io/todo-list/"><img src="assets/sdelano-motion.gif" alt="Done 1.0 task-completion concept animation" width="320"/></a><br/>
-<strong>Сделано 1.0 / Done — stable task app</strong><br/>
-Add a task → complete it → receive feedback → unlock milestones 1, 3, 5 and 10. First-win onboarding, elapsed-time timer, optional sound and haptics, progress sharing and local persistence.<br/>
-<a href="https://safal207.github.io/todo-list/">Published demo</a> · <a href="https://github.com/safal207/todo-list">Source</a>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/safal207/sdelano-2"><img src="https://raw.githubusercontent.com/safal207/sdelano-2/7ed591f77cc80bc7ed1382c1312bb5f7eebb2a81/assets/fox-mascot.webp" alt="Fox mascot asset from the Done 2.0 experimental branch, not an interface screenshot" width="144"/></a><br/>
-<strong>Сделано 2.0 / Done — experimental game engine</strong><br/>
-Useful action → XP and coins → progression and fox evolution. Optional focus, cosmetic rewards and read-only reward-ledger consistency research. The character reflects real progress; it does not demand attention.<br/>
-<a href="https://github.com/safal207/sdelano-2">Research repository</a> · <a href="https://github.com/safal207/sdelano-2/pull/2">Draft Shadow Mode</a><br/>
-<strong>Unreleased prototype; not a production app.</strong>
-</td>
+<td align="center" valign="top"><a href="https://github.com/safal207/sdelano-2/blob/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v1-first-win.png"><img src="https://raw.githubusercontent.com/safal207/sdelano-2/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v1-first-win.png" alt="Done 1.0 — first completed task and first-win card" width="175"/></a><br/><strong>First win</strong></td>
+<td align="center" valign="top"><a href="https://github.com/safal207/sdelano-2/blob/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v1-achievements.png"><img src="https://raw.githubusercontent.com/safal207/sdelano-2/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v1-achievements.png" alt="Done 1.0 — three-step achievement and progress" width="175"/></a><br/><strong>Achievements</strong></td>
 </tr>
 </table>
+
+Real actions → feedback → milestones 1, 3, 5 and 10. Elapsed-time tracking, progress sharing and local persistence.
+
+[Live app](https://safal207.github.io/todo-list/) · [Source](https://github.com/safal207/todo-list)
+
+**Сделано 2.0 / Done — experimental gamified productivity app**
+
+<table>
+<tr>
+<td align="center" valign="top"><a href="https://github.com/safal207/sdelano-2/blob/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v2-fox-ceremony.png"><img src="https://raw.githubusercontent.com/safal207/sdelano-2/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v2-fox-ceremony.png" alt="Done 2.0 — first-win ceremony with XP, coins and fox progression" width="175"/></a><br/><strong>Rewards & XP</strong></td>
+<td align="center" valign="top"><a href="https://github.com/safal207/sdelano-2/blob/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v2-fox-preview.png"><img src="https://raw.githubusercontent.com/safal207/sdelano-2/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v2-fox-preview.png" alt="Done 2.0 — dedicated test-state fox evolution preview" width="175"/></a><br/><strong>Fox evolution (test preview)</strong></td>
+<td align="center" valign="top"><a href="https://github.com/safal207/sdelano-2/blob/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v2-shop.png"><img src="https://raw.githubusercontent.com/safal207/sdelano-2/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/v2-shop.png" alt="Done 2.0 — cosmetic shop and reward balance" width="175"/></a><br/><strong>Cosmetic shop</strong></td>
+</tr>
+</table>
+
+Useful action → XP and coins → character progression. Optional focus, cosmetic rewards and reward-ledger research. The character reflects real useful actions; it does not demand attention.
+
+**Preview status:** isolated browser build and first-task/reload/storage-separation checks passed. GitHub Pages activation is pending repository settings approval. This is not a production release.
+
+[Public source](https://github.com/safal207/sdelano-2) · [Preview branch](https://github.com/safal207/sdelano-2/tree/portfolio-preview) · [Build and QA](https://github.com/safal207/sdelano-2/actions/runs/45767821780)
+
+All five images are real 390-pixel-wide Chromium QA screenshots using synthetic tasks. The fox evolution screen is a dedicated test-state preview, not evidence of organic user progression. [Screenshot provenance and checksums](https://github.com/safal207/sdelano-2/blob/f46b8435473629345d03c41a82e5139bce538892/portfolio-evidence/sources.json).
 
 <!-- hospitality-games:end -->
 
